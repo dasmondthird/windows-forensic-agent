@@ -1,0 +1,22 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# IDE files
+.vscode/settings.json
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+forensic-collect/
+test-output/
+final-demo/
+*.log
+
+# Release binaries
+*.exe
+!forensic-agent.exe

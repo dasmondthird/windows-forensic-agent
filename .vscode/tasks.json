@@ -1,0 +1,56 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Forensic Agent",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"$env:PATH += ';$env:USERPROFILE\\.cargo\\bin'; cargo build --release"
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared"
+			},
+			"problemMatcher": ["$rustc"]
+		},
+		{
+			"label": "Run Forensic Agent",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"& '.\\target\\release\\forensic-agent.exe' --help"
+			],
+			"group": "test",
+			"dependsOn": "Build Forensic Agent",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "Check Rust Project",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"$env:PATH += ';' + $env:USERPROFILE + '\\.cargo\\bin'; cargo check"
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared"
+			},
+			"problemMatcher": ["$rustc"]
+		}
+	]
+}

@@ -1,0 +1,4745 @@
+{
+  "metadata": {
+    "collection_mode": "pure_reconnaissance",
+    "hostname": "DESKTOP-BSQOQP7",
+    "timestamp": 1755776655,
+    "username": "gerga"
+  },
+  "system_artifacts": {
+    "browser_downloads": [],
+    "browser_extensions": [
+      {
+        "browser": "Firefox",
+        "id": "YandexSearchExtension@io.librity",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Yandex search",
+        "permissions": [],
+        "version": "1.0.2"
+      },
+      {
+        "browser": "Firefox",
+        "id": "hi@youraiscroll.com",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "YourAIScroll - AI Chat History Exporter",
+        "permissions": [],
+        "version": "1.0.3"
+      },
+      {
+        "browser": "Firefox",
+        "id": "stefanvandamme@stefanvd.net",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Turn Off the Lights",
+        "permissions": [],
+        "version": "4.5.8"
+      },
+      {
+        "browser": "Firefox",
+        "id": "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Raindrop.io",
+        "permissions": [],
+        "version": "6.6.90"
+      },
+      {
+        "browser": "Firefox",
+        "id": "formautofill@mozilla.org",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Form Autofill",
+        "permissions": [],
+        "version": "1.0.1"
+      },
+      {
+        "browser": "Firefox",
+        "id": "pictureinpicture@mozilla.org",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Picture-In-Picture",
+        "permissions": [],
+        "version": "1.0.0"
+      },
+      {
+        "browser": "Firefox",
+        "id": "addons-search-detection@mozilla.com",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Add-ons Search Detection",
+        "permissions": [],
+        "version": "2.0.0"
+      },
+      {
+        "browser": "Firefox",
+        "id": "webcompat@mozilla.org",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Web Compatibility Interventions",
+        "permissions": [],
+        "version": "141.3.0"
+      },
+      {
+        "browser": "Firefox",
+        "id": "newtab@mozilla.org",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "New Tab",
+        "permissions": [],
+        "version": "141.1.0"
+      },
+      {
+        "browser": "Firefox",
+        "id": "default-theme@mozilla.org",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "System theme — auto",
+        "permissions": [],
+        "version": "1.4.2"
+      },
+      {
+        "browser": "Firefox",
+        "id": "addons-search-detection@mozilla.com",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Add-ons Search Detection",
+        "permissions": [],
+        "version": "2.0.0"
+      },
+      {
+        "browser": "Firefox",
+        "id": "firefox-compact-light@mozilla.org",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Light",
+        "permissions": [],
+        "version": "1.3.2"
+      },
+      {
+        "browser": "Firefox",
+        "id": "firefox-compact-dark@mozilla.org",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Dark",
+        "permissions": [],
+        "version": "1.3.3"
+      },
+      {
+        "browser": "Firefox",
+        "id": "firefox-alpenglow@mozilla.org",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8r8nyjbn.default-release-1712701553251",
+        "is_suspicious": false,
+        "name": "Firefox Alpenglow",
+        "permissions": [],
+        "version": "1.5"
+      },
+      {
+        "browser": "Edge",
+        "id": "ghbmnnjooekpmoecnnnilnnbdlolhkhi",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Extensions\\ghbmnnjooekpmoecnnnilnnbdlolhkhi\\1.94.1_0",
+        "is_suspicious": false,
+        "name": "__MSG_extName__",
+        "permissions": [
+          "alarms",
+          "storage",
+          "unlimitedStorage",
+          "offscreen"
+        ],
+        "version": "1.94.1"
+      },
+      {
+        "browser": "Edge",
+        "id": "ifoakfbpdcdoeenechcleahebpibofpc",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Extensions\\ifoakfbpdcdoeenechcleahebpibofpc\\4.9.111_0",
+        "is_suspicious": false,
+        "name": "Dark Reader",
+        "permissions": [
+          "alarms",
+          "fontSettings",
+          "storage",
+          "tabs",
+          "<all_urls>"
+        ],
+        "version": "4.9.111"
+      },
+      {
+        "browser": "Edge",
+        "id": "jmjflgjpcpepeafmmgdpfkogkghcpiha",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Extensions\\jmjflgjpcpepeafmmgdpfkogkghcpiha\\1.2.1_0",
+        "is_suspicious": false,
+        "name": "Edge relevant text changes",
+        "permissions": [],
+        "version": "1.2.1"
+      },
+      {
+        "browser": "Edge",
+        "id": "lpngnnjemnkjmgpoolldhiejhkmmgfge",
+        "install_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Extensions\\lpngnnjemnkjmgpoolldhiejhkmmgfge\\6.6.90_0",
+        "is_suspicious": false,
+        "name": "Raindrop.io",
+        "permissions": [
+          "contextMenus",
+          "activeTab",
+          "scripting",
+          "storage",
+          "sidePanel"
+        ],
+        "version": "6.6.90"
+      }
+    ],
+    "browser_settings": [
+      {
+        "browser": "Firefox",
+        "category": "Homepage",
+        "is_suspicious": false,
+        "setting_name": "browser.startup.homepage",
+        "value": "browser.startup.homepage\", \"chrome://browser/content/blanktab.html"
+      },
+      {
+        "browser": "Firefox",
+        "category": "Homepage",
+        "is_suspicious": false,
+        "setting_name": "browser.startup.homepage",
+        "value": "browser.startup.homepage_override.buildID\", \"20250806102122"
+      },
+      {
+        "browser": "Firefox",
+        "category": "Homepage",
+        "is_suspicious": false,
+        "setting_name": "browser.startup.homepage",
+        "value": "browser.startup.homepage_override.mstone\", \"141.0.3"
+      },
+      {
+        "browser": "Firefox",
+        "category": "Homepage",
+        "is_suspicious": false,
+        "setting_name": "browser.startup.homepage",
+        "value": "services.sync.prefs.sync-seen.browser.startup.homepage"
+      }
+    ],
+    "certificates": [],
+    "crypto_theft_artifacts": [],
+    "file_artifacts": [
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\winscard.dll",
+        "sha256": "aa0e5c66ca5be5c8dd578b9774a6ed288cb6c1f78670a99eb3b0fc01ce822bb5",
+        "signature_status": "Trusted",
+        "size": 270336
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\SCardSvr.dll",
+        "sha256": "504d06e2b7da225986c8f3eb3567a47ce32fd91187a4de9af79e52cdf807159b",
+        "signature_status": "Trusted",
+        "size": 344064
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\cryptsvc.dll",
+        "sha256": "be57d15c3c891a411c44a355b8babca10c14b68bb76f30b69f63134189600006",
+        "signature_status": "Trusted",
+        "size": 155648
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\bcrypt.dll",
+        "sha256": "b0c8eddf687a1c025762a89609d88a517a55faab9a0b7906026682358d3095d4",
+        "signature_status": "Trusted",
+        "size": 166784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\schannel.dll",
+        "sha256": "92668476d3b552c0f1451d4e972cac687f626eae0244540c157049559b64f560",
+        "signature_status": "Trusted",
+        "size": 790528
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\rpcss.dll",
+        "sha256": "af26c83bb2ce3238bbe64f6799428e5284165e61144ba26df1e0b5e7b07ea50b",
+        "signature_status": "Trusted",
+        "size": 1458176
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\sechost.dll",
+        "sha256": "33090a67c0099f947812eb1e6998fe780e00f3fa1177a1ae22a22140ab49612e",
+        "signature_status": "Trusted",
+        "size": 691520
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\1394ohci.sys",
+        "sha256": "9df5d0ebdbcaf08e3f376ae993aca8aedef266228d8f1dd41d6f79f294840b2f",
+        "signature_status": "Trusted",
+        "size": 294912
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\3ware.sys",
+        "sha256": "537c7bf0dcc56757ddb97d709fa65c1b3cbf9619563df9a13fa8287b71d9e8b5",
+        "signature_status": "Trusted",
+        "size": 108464
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\acpi.sys",
+        "sha256": "c1f321b38189eaad8bfab2e4739afb7ee0ddda04435f0bd0938f05565c6d734a",
+        "signature_status": "Trusted",
+        "size": 873896
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\AcpiDev.sys",
+        "sha256": "4c82679bb35d1e0e66dde17f04c0f2c6f02c95256a2ea93f6b3e1aa77454e08f",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\acpiex.sys",
+        "sha256": "0ea9b48cb8e99d98aec52b1ee2f7a500dec3df60ce3f3e9bda3777d7ff1a0f98",
+        "signature_status": "Trusted",
+        "size": 181552
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\acpitime.sys",
+        "sha256": "193eb944858c86c60d3ce1d834b003c0a3092beb20b27e7398199bc46c02dd5b",
+        "signature_status": "Trusted",
+        "size": 57344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Acx01000.sys",
+        "sha256": "8cc1a66538da61b3af4bc99dd0e228a1d32e83ed751df44387318481a5a615b0",
+        "signature_status": "Trusted",
+        "size": 745472
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\adgvpnnetworkwfpdrv.sys",
+        "sha256": "ae94d06d4e0b4171d88812a50c22aac2a24a35e1afc6ceb4ac3f5f1fb133b19f",
+        "signature_status": "Trusted",
+        "size": 93352
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\adp80xx.sys",
+        "sha256": "9f3061731fc80c4e2d41bd379573ed12daf396d84bad1a5c89ed32b10febe929",
+        "signature_status": "Trusted",
+        "size": 1136544
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\aehd.sys",
+        "sha256": "03e0f9fa171608f25c05c7df9bc8ab717b02f037630efa10ff53113f88afe468",
+        "signature_status": "Trusted",
+        "size": 403080
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\afd.sys",
+        "sha256": "a0f454f0ef7015568f1cf85ed07924715009786547cc472bd6e5762abffaed9b",
+        "signature_status": "Trusted",
+        "size": 742784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\afunix.sys",
+        "sha256": "8fdc055d0afc1fd3a93f9da74bd12243aea1ef6212ba514ab52f4981851559e9",
+        "signature_status": "Trusted",
+        "size": 81920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\agilevpn.sys",
+        "sha256": "3416a2ed682bfe0df376feb087a642f3d46dc2bffb0f7d4d13a88d64b47f505c",
+        "signature_status": "Trusted",
+        "size": 147456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ahcache.sys",
+        "sha256": "ddb284f5451915af70e9e9283478713eccdcd7dccaae72187dc6c74150438503",
+        "signature_status": "Trusted",
+        "size": 376832
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\aksdf.sys",
+        "sha256": "5132616e29625f5d843a99f9c4305fdf4e6885d31eb1887bcdc40eab2ab97137",
+        "signature_status": "Trusted",
+        "size": 389560
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\aksfridge.sys",
+        "sha256": "5741487c6365a1fe9a8810b24f3f8151047d5d83abc71de8f958ac414effb7f2",
+        "signature_status": "Trusted",
+        "size": 510800
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\amdgpio2.sys",
+        "sha256": "46a53925baa34fa9d87e7c3157504a4557d81cd8b8608e7ab6caf02f482f7792",
+        "signature_status": "Trusted",
+        "size": 18432
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\amdi2c.sys",
+        "sha256": "387811d57def06c9736d9f0bab0dfb0f83dbab19e5489bf9a6dcdcbd682dd8fe",
+        "signature_status": "Trusted",
+        "size": 45568
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\amdk8.sys",
+        "sha256": "973ab0e31b41b0552b1bde43cbb255a3fc95dd8417c452d37df4b473a4f24c7a",
+        "signature_status": "Trusted",
+        "size": 263592
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\amdppm.sys",
+        "sha256": "9079f879ae7736f893f7be5c0cf07d8805886058b2cb0f15089f10f38127379f",
+        "signature_status": "Trusted",
+        "size": 271760
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\amdsata.sys",
+        "sha256": "25433299f63eb920a6a74b0c1d40a95c7d9bc647ff5cd71d4f1730283b660e86",
+        "signature_status": "Trusted",
+        "size": 84400
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\amdsbs.sys",
+        "sha256": "afa0a9eaccc36cfc88ac41dcd0149ac6f9763d12c898397e831d80f202ef4402",
+        "signature_status": "Trusted",
+        "size": 260512
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\amdwps.sys",
+        "sha256": "e84ccd1521e0f1db5b0a6e67a50dc53b430d79112c973cc354acd616f0824343",
+        "signature_status": "Trusted",
+        "size": 67144
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\amdxata.sys",
+        "sha256": "eb4c463a91fc778b335c3a9f4a74539ce0378f59974b2b46d5350c6c8afddb69",
+        "signature_status": "Trusted",
+        "size": 28064
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\appid.sys",
+        "sha256": "9e90a0368fd13287f502ffd472445cb5be3a18c86bff8ff6d0ef3aaa0200b6ff",
+        "signature_status": "Trusted",
+        "size": 259456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\AppleSSD.sys",
+        "sha256": "8097bba0ab20b5eccbd02def237a0b36e845ee8f50c684d72148a89bdba34a7a",
+        "signature_status": "Trusted",
+        "size": 113456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\applockerfltr.sys",
+        "sha256": "3ca050003f7af2f7dab43c8e5dad0eb0fc66cd6f1df61989d6f233ef59d4bda7",
+        "signature_status": "Trusted",
+        "size": 57344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\AppVStrm.sys",
+        "sha256": "3a3e7226604bbb69ede8bc8a4fde61f59922b8c795442d7f05a8077c11a2fa0c",
+        "signature_status": "Trusted",
+        "size": 177456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\AppvVemgr.sys",
+        "sha256": "c8bcd77030f948a6287adda728fcba6b4297dec9fe6a05cdeccef624075c8ae1",
+        "signature_status": "Trusted",
+        "size": 218432
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\AppvVfs.sys",
+        "sha256": "93e1218efac0bf749890dcd70db531132c445346d80cea00a83c4ae908de9eef",
+        "signature_status": "Trusted",
+        "size": 189744
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\arcsas.sys",
+        "sha256": "9987d0687f24e842f0987193826749441c693d674f423358d44a1ba2473e515f",
+        "signature_status": "Trusted",
+        "size": 133024
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\asyncmac.sys",
+        "sha256": "6135cbea049e8a2654d4e1d14b7be1afe461df62e3f55190b2b3c05d777858da",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\atapi.sys",
+        "sha256": "16a3e5d14de149eecd43b426f8e860b9808441fad7981764d793e4054302432b",
+        "signature_status": "Trusted",
+        "size": 66960
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ataport.sys",
+        "sha256": "06d2f04962adf5158da17b12a41a4af9154456af78ea8199b1821785eb26f0b6",
+        "signature_status": "Trusted",
+        "size": 284048
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bam.sys",
+        "sha256": "d6430ff965de4b9d2e38c3602cf32aef13f5ebc2064e2e04624e3f53bfcaef81",
+        "signature_status": "Trusted",
+        "size": 124304
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\battc.sys",
+        "sha256": "819b40b2510a35b4720e2aa99659f1e556f8bfd653ee20636eb6c664b2da3836",
+        "signature_status": "Trusted",
+        "size": 144784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bcmfn2.sys",
+        "sha256": "9ad12e18a042c5b8efb19297bc2e7bd1fef75a138fefb64c6bf0261fd3e53ab1",
+        "signature_status": "Trusted",
+        "size": 9728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\beee208e.sys",
+        "sha256": "6c7ccd465090354438b39da8430a5c47e7f24768a5b12ee02fecf8763e77c9e4",
+        "signature_status": "Trusted",
+        "size": 377392
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\beep.sys",
+        "sha256": "98cdbd998cf136fbbb9ecce829717b917374d0af20780bfd02767303c2756d85",
+        "signature_status": "Trusted",
+        "size": 40960
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bfs.sys",
+        "sha256": "37d5edca9d9c81fad983706627d69423e4033d47cd151ca36f03b5e86bf6533c",
+        "signature_status": "Trusted",
+        "size": 144792
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bindflt.sys",
+        "sha256": "74f808a6cc1dd84a09b0ee1e6fe241b33bfcd2464dc024d49f1d5830e6d99847",
+        "signature_status": "Trusted",
+        "size": 198032
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bowser.sys",
+        "sha256": "7eae016b2fcd614640cc7ece2913f21eaed0a8ca8b572fccfb14d6e26d158941",
+        "signature_status": "Trusted",
+        "size": 159744
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bridge.sys",
+        "sha256": "f6a1cf4db738f18d5e06b772481fbba64410cb4de0d66992fdc33c70498e17f5",
+        "signature_status": "Trusted",
+        "size": 163840
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\BtaMPM.sys",
+        "sha256": "882e5036421e94a2b0e4f409773e4ecf4942e0c2e1e93eca833bc8cf99898b32",
+        "signature_status": "Trusted",
+        "size": 81920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\BthA2dp.sys",
+        "sha256": "328193bd6e48816b7dbb758a2b2af274af5fe656133c5ac90cdfac33e8511072",
+        "signature_status": "Trusted",
+        "size": 602112
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bthenum.sys",
+        "sha256": "5da55010f5fdee8ec4bec0d1047fffe1c5a4e0922d1d1f51930cef6bc3d94ffa",
+        "signature_status": "Trusted",
+        "size": 147456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\BthHfEnum.sys",
+        "sha256": "5b42985a9b4af67f6d13a19abaab8f4cc7be9972370adf3a41636bec1ff2c3be",
+        "signature_status": "Trusted",
+        "size": 204800
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bthmodem.sys",
+        "sha256": "37f444b0ac6a9f15621f1682fbac51e98dcfddfddb430cb2a7734013f3993c1c",
+        "signature_status": "Trusted",
+        "size": 106496
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bthport.sys",
+        "sha256": "9ca20d438c53bce2bb325415ef2f7fdbe86c1e88b04e6e0116ad0eae63ab711f",
+        "signature_status": "Trusted",
+        "size": 2306048
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bttflt.sys",
+        "sha256": "0f65089c4a1b84b51d46cb758fe06ad3651eeecc72ed4a82dad15bc419f60ad5",
+        "signature_status": "Trusted",
+        "size": 79176
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\buttonconverter.sys",
+        "sha256": "4fad8e3d270e424bd7b618ff50d4e65f21093ddda7b6a034a3241d51a4ed6428",
+        "signature_status": "Trusted",
+        "size": 90112
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\bxvbda.sys",
+        "sha256": "8fca12e3aba77f5a64a54431969edc8b32e1a8f3f6fc06282120fe003b2be1b9",
+        "signature_status": "Trusted",
+        "size": 534944
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\CAD.sys",
+        "sha256": "2210a4feb1ad889c9cc478be8a243b46f2e9ee2841b3bb1e7d8557b3d6564f58",
+        "signature_status": "Trusted",
+        "size": 107920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cdfs.sys",
+        "sha256": "c6ee866166e1019c5d9560e2c34aa4203d0c40fcb8eac50c5a31223c08a0c334",
+        "signature_status": "Trusted",
+        "size": 131072
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cdrom.sys",
+        "sha256": "297578fe9855f4114a839fd9dee664e4eb4350d44ee171259dc529adc8e423db",
+        "signature_status": "Trusted",
+        "size": 221184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\CEA.sys",
+        "sha256": "8dc64e697f5cad6130538885ab29989dd03578425d258377ae83aad7216378d5",
+        "signature_status": "Trusted",
+        "size": 107952
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cht4dx64.sys",
+        "sha256": "2014b87479a23b3390167fd78be35cfae75645a7c5ac0fe16cba2a60aac48e09",
+        "signature_status": "Trusted",
+        "size": 145200
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cht4sx64.sys",
+        "sha256": "ffaa9abf91808e2569206a5a5d5d3542b02860965d8f1ea5790307648cd1e4d3",
+        "signature_status": "Trusted",
+        "size": 320944
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cht4vfx.sys",
+        "sha256": "289f18d3fa652d1b60c8799ea38ed3caf04416aa62817a9a49028141ba1adfb9",
+        "signature_status": "Trusted",
+        "size": 28672
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cht4vx64.sys",
+        "sha256": "9ec811c11ebf399a5c4fddd07a9e63975f2145151306c8599f64dc35a0966eb0",
+        "signature_status": "Trusted",
+        "size": 1854880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cimfs.sys",
+        "sha256": "05f5abcf299061cb8d66ffa83358fb92542770af97f8d81545728d1ddaf3cd92",
+        "signature_status": "Trusted",
+        "size": 292224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\circlass.sys",
+        "sha256": "443f128cdd3d22c9a9f6201c432cfc6d4888c7f589b0eb32f022b71e8271db9c",
+        "signature_status": "Trusted",
+        "size": 90112
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Classpnp.sys",
+        "sha256": "1dadecabfd66c01241d405a34d50642963b00d4a48d08a4869486897b41c0b0f",
+        "signature_status": "Trusted",
+        "size": 505232
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cldflt.sys",
+        "sha256": "b3e7e16796907d84ae9a901eb4c55755bbd7cb8d267573037c95c42fd8b0f984",
+        "signature_status": "Trusted",
+        "size": 589824
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\clfs.sys",
+        "sha256": "1f7bc6c4aab4283e5f386cddc97124228f72974bb381378ded19fed1f449462a",
+        "signature_status": "Trusted",
+        "size": 562600
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ClipSp.sys",
+        "sha256": "cc373572c774bdd14174462ddc3be5e3ba0117c5f742c1158b256316c0045410",
+        "signature_status": "Trusted",
+        "size": 1123728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\CmBatt.sys",
+        "sha256": "bed1ba8ac13e7e93dd77a8e644a361a0e72b779b729c7b495ae06f09a6bda94d",
+        "signature_status": "Trusted",
+        "size": 94208
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cmimcext.sys",
+        "sha256": "9eb1dd1014f5147855b0c4cb087d5b9c4a17e9d2c54d7bcf3c0cfbf612eecea7",
+        "signature_status": "Trusted",
+        "size": 83400
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cng.sys",
+        "sha256": "c03ff36aee7817e439a9eecd1ce7fcb5f9af204b128cdb7dd719ff0eb44f5020",
+        "signature_status": "Trusted",
+        "size": 865064
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\cnghwassist.sys",
+        "sha256": "8d79879e02f6dc19f04743d78004e228d3ebf64a5cc3a57d0e0b624091be5765",
+        "signature_status": "Trusted",
+        "size": 75056
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\condrv.sys",
+        "sha256": "3b424955065267757dd33a3b04836d7853a5345e67e8d11ceedf6ccd064095b9",
+        "signature_status": "Trusted",
+        "size": 91440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\crashdmp.sys",
+        "sha256": "100f9f7b9597bbf5a15b80580964fc98ba95a6c152ff84f5bd1e53769b86496e",
+        "signature_status": "Trusted",
+        "size": 161152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\csc.sys",
+        "sha256": "6487009b4af5e103e136cc1cf60e9b7dba4a405dcf4f08f2c12537d994b56639",
+        "signature_status": "Trusted",
+        "size": 632216
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\dam.sys",
+        "sha256": "f101cb234dd0453d5cf0add30ca776caeb8f33667dbe0370d4b7bd28a5b053f3",
+        "signature_status": "Trusted",
+        "size": 132504
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\devauthe.sys",
+        "sha256": "86ab92232659d7d8e3d9edda61c5923578aae6dfc30f94b209a1b9c9f9df6ed7",
+        "signature_status": "Trusted",
+        "size": 86016
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\dfsc.sys",
+        "sha256": "4ee432bdf9b67fbb754c0015fcd934a95c80ea8f5ff77f9098615b50fbfa73ed",
+        "signature_status": "Trusted",
+        "size": 206208
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\disk.sys",
+        "sha256": "4561aa23153bd6e0d7856c4fc75598c11ce1a15fdf231381abb088e13683fd84",
+        "signature_status": "Trusted",
+        "size": 144808
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Diskdump.sys",
+        "sha256": "bfc4a8eb7c0b18ad53824748113bb42dd1df202921d07b17f467ccb1611bd71f",
+        "signature_status": "Trusted",
+        "size": 79288
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Dmpusbstor.sys",
+        "sha256": "931aaed0424e4098dd4dd9024856dad6d890df5c32b2d130417a664cf0c7e497",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\dmvsc.sys",
+        "sha256": "3522abf6da557001d4193d0b3ec014438933269b91840d5c1be0477e2034df33",
+        "signature_status": "Trusted",
+        "size": 99712
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\drmk.sys",
+        "sha256": "2280795ecd01446aa98db5580bde3521ae4c4ec21df7c17cb6f060588ab44660",
+        "signature_status": "Trusted",
+        "size": 77824
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\drmkaud.sys",
+        "sha256": "8caf8f8cdd84948f67c3d99eb3e1ce935f3272f3b984927ad822ecf0904cc779",
+        "signature_status": "Trusted",
+        "size": 51056
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Dumpata.sys",
+        "sha256": "6cd3c4c3e2cb5b7a851ee3b8f90d26d4e09bde9c6d0fe48529cd1ad60c4c6f72",
+        "signature_status": "Trusted",
+        "size": 79160
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\dumpfve.sys",
+        "sha256": "1bd26f88a8502427710723b5af7d02f94caed2b2b21efe60b2161d41db3eaa94",
+        "signature_status": "Trusted",
+        "size": 158472
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\dumpsd.sys",
+        "sha256": "e7c7eacbf5188e771af809c65fc5c16d3ae48b6a32d3038664747ca8bd15f9a7",
+        "signature_status": "Trusted",
+        "size": 230784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\dumpsdport.sys",
+        "sha256": "0c2d0719e73da2c5db256dbf8ed42647c7bba14ab7c135671dbf222bae3ffd04",
+        "signature_status": "Trusted",
+        "size": 73728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Dumpstorport.sys",
+        "sha256": "d9eae077937ca2c696637635f17cfb2b33273dcd8e8ec96b32cb5e8c2257330c",
+        "signature_status": "Trusted",
+        "size": 103808
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\dxgkrnl.sys",
+        "sha256": "3e4c7c3bdb79b4173d987f61370e9ec30f54282c1ca409c7b49447ba4a4f4078",
+        "signature_status": "Trusted",
+        "size": 5154224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\dxgmms1.sys",
+        "sha256": "69ca9b3ec555a8837ec6513b9a0348a4c6c68716be1c12fa3d96b500a80f4ad9",
+        "signature_status": "Trusted",
+        "size": 546192
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\dxgmms2.sys",
+        "sha256": "5829b5cc9bba7c3d417b6c45c257b0f68cc0bf355f7fc2466629deaa1e89ec22",
+        "signature_status": "Trusted",
+        "size": 1201536
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\eamonm.sys",
+        "sha256": "8aec3f54db669fd135e7c74da3d12f2f679a53111283397bd0e42d33b19b4026",
+        "signature_status": "Trusted",
+        "size": 220520
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\eelam.sys",
+        "sha256": "56af45ea19ea3aaf91121cae00748f533041bf4071949d270be530568a0e9c45",
+        "signature_status": "Trusted",
+        "size": 16336
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ehdrv.sys",
+        "sha256": "c3ed3912f3472407f7d7a8a3384dc022798b2705df320245af1c29ba67bd5cd4",
+        "signature_status": "Trusted",
+        "size": 268568
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\EhStorClass.sys",
+        "sha256": "4550fda34c8149f49c896b727ea8dc7d349300273ab6c70a6ba74c51cb5a9b4e",
+        "signature_status": "Trusted",
+        "size": 161224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\EhStorTcgDrv.sys",
+        "sha256": "e7eb1d936036812c2810adbd71479de61c4b1e870e7d01d0c4272e3010f168ea",
+        "signature_status": "Trusted",
+        "size": 169376
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\epfw.sys",
+        "sha256": "2fa2b5d94e112dcd26c5fc97eb76b6b766ed0c9ebe9eb36fe46aceb595120e0e",
+        "signature_status": "Trusted",
+        "size": 87784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\epfwwfp.sys",
+        "sha256": "1993e9d0fde1dd3d11e295b0bbd347eeab285ecf40d67acf3c8b650f200730ef",
+        "signature_status": "Trusted",
+        "size": 128552
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\EppElam.sys",
+        "sha256": "e084d692d90fa593dc08796bfb6ea0f7f23f20f4eab928d07b48fcb9be189d63",
+        "signature_status": "Trusted",
+        "size": 19392
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\errdev.sys",
+        "sha256": "42e3fa480f869c3e1d6bf2e78cb7665f19d5f399a8d359fffa4b71805dafeb9a",
+        "signature_status": "Trusted",
+        "size": 53248
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\evbd0a.sys",
+        "sha256": "53af6cd54eae4d4952bc1fa57225a6a376d27e61e7eefd00acaf6c1d9346be0e",
+        "signature_status": "Trusted",
+        "size": 3424160
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\evbda.sys",
+        "sha256": "60fe372e60f532099a242ef73c24c142ceb66ce7b1f7ca48b826a02d9dd513c9",
+        "signature_status": "Trusted",
+        "size": 3441568
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ExecutionContext.sys",
+        "sha256": "bcc7a74279e5002559b338d09ec2da3e956d9826f98c2b971fca67bfbffc91b0",
+        "signature_status": "Trusted",
+        "size": 140704
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\exfat.sys",
+        "sha256": "87613d6ceb8df834c9d7402d5f389ac5f5f00b060f7a1454465b827e4eac79b5",
+        "signature_status": "Trusted",
+        "size": 435600
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\farflt11.sys",
+        "sha256": "2159b0c598abfab192b7d53fa28e76db717f64d5ea3fef9f1c492d136d0b60c5",
+        "signature_status": "Trusted",
+        "size": 212072
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\fastfat.sys",
+        "sha256": "a12206e7423925627818558b01169ccf613e9b261cc8df0515c1e194e432c2f7",
+        "signature_status": "Trusted",
+        "size": 447888
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\fdc.sys",
+        "sha256": "ace9195d382eed208d1c64ae2452b8fa4d55329c5e23086d7a341c0ed19b8803",
+        "signature_status": "Trusted",
+        "size": 69632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\filecrypt.sys",
+        "sha256": "48f8408987eccdcc97b3d32c14c17fcc9e4e13ffb8be5e6c481b931be7ad5b1c",
+        "signature_status": "Trusted",
+        "size": 94208
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\fileinfo.sys",
+        "sha256": "56b772ac11842c2d1bb5f13bbf24f84ea51aad78dff8ccc26fb64e4b2b73f85e",
+        "signature_status": "Trusted",
+        "size": 128432
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\filetrace.sys",
+        "sha256": "9317e76f14a68bd68a768fc4a3886e4b77e15d1712a6242a107e8d0fa243defa",
+        "signature_status": "Trusted",
+        "size": 73728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\FlashUSB.sys",
+        "sha256": "78a5c82f3155f82728e3cdcb0d5085133e7b6e86a51dff1da9731383bf919965",
+        "signature_status": "Trusted",
+        "size": 19968
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\flpydisk.sys",
+        "sha256": "9f8da48048ec2c5b502d919656a0706fad363a2ade37a7b9b95e21d5d4dcd74b",
+        "signature_status": "Trusted",
+        "size": 65536
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\fltMgr.sys",
+        "sha256": "f47e53c01f4b2964c73f624d3e60473a2069d44875e0f6324711f45119a1f1ae",
+        "signature_status": "Trusted",
+        "size": 611752
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\fsdepends.sys",
+        "sha256": "71c375564330eea15253a813551ac46f0d2fa73ac6fba94b0d0bd17563c3593a",
+        "signature_status": "Trusted",
+        "size": 103864
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\fse.sys",
+        "sha256": "6b52fbfacc633cb784275565dbe9dde59a5e10c0d499ea70f47552a934c17757",
+        "signature_status": "Trusted",
+        "size": 222528
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\fs_rec.sys",
+        "sha256": "799c95dec78122055300086193767662a6798b537e21ab2e7b9860be1e252ea3",
+        "signature_status": "Trusted",
+        "size": 71072
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\fvevol.sys",
+        "sha256": "92e1bea8759a9d47d62d382936d7c03eae3843e75308c23395384ef51827f676",
+        "signature_status": "Trusted",
+        "size": 968104
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\globmerger.sys",
+        "sha256": "d2e738cbb9f642f60fb9d2210ea73be0b60ad04ef4ae97890d2795ba5a26b09e",
+        "signature_status": "Trusted",
+        "size": 140672
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\gwdrv.sys",
+        "sha256": "84fab63ef47163d33710249429dfa289835cf0f61864c7e75c5edcbee7df4ee6",
+        "signature_status": "Trusted",
+        "size": 48808
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hardlock.sys",
+        "sha256": "1d3e3dc116eb68c6a22ef06d92c06ce9f650cb8fa772c623545d2b974f87520a",
+        "signature_status": "Trusted",
+        "size": 1970104
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hdaudbus.sys",
+        "sha256": "5df7bfea31b5d5eabc68ea0e4541d428cb133d58f20ea2b57c9390ede2e259b4",
+        "signature_status": "Trusted",
+        "size": 204800
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\HdAudio.sys",
+        "sha256": "ce7f86eb3d98750ea103543f426c5e00ae5ef6e4aa86ad80b43e1f08c32ea870",
+        "signature_status": "Trusted",
+        "size": 532480
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hidbatt.sys",
+        "sha256": "23fc4ead8368f57cf40993491f3fe7e48d2866870eefdce923f78ba387830e45",
+        "signature_status": "Trusted",
+        "size": 75168
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hidbth.sys",
+        "sha256": "497b1ac6244fc485162e43c4b6a41d9b3db193bbdcaebcd66452e443ae9003e8",
+        "signature_status": "Trusted",
+        "size": 155648
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hidclass.sys",
+        "sha256": "7cacace5df4bac4214645bb67f38ca3995bc4b17dab2a24ae065f0cebcf64e7b",
+        "signature_status": "Trusted",
+        "size": 303104
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hidi2c.sys",
+        "sha256": "eae1b5098cd507f5a2c73a55abf9b5d07b4118811dccb5055e71cf9df85ab5a1",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hidinterrupt.sys",
+        "sha256": "61c59a8cf497947a22b584762877a6ce4cf8c9a553ad404649501a5ff61995a5",
+        "signature_status": "Trusted",
+        "size": 91456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hidir.sys",
+        "sha256": "967edda02ea047bf5f6689787fd7e74bfc16435ec5dd2c1c8e8f6c6eadd5dade",
+        "signature_status": "Trusted",
+        "size": 81920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hidparse.sys",
+        "sha256": "e5b8370052985df0a6c6eab098bdaea46c6a26c577a4fbb547605ae97c86ce29",
+        "signature_status": "Trusted",
+        "size": 81920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hidspi.sys",
+        "sha256": "1637b984e5a5bc76305c9e7e1da008e040d5c7e24ff210c8fe7bb471e276c80b",
+        "signature_status": "Trusted",
+        "size": 139264
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\HidSpiCx.sys",
+        "sha256": "662d9924ea3f0594242f1717e6bd1538923aaa75cc8065784cb22117a914db6b",
+        "signature_status": "Trusted",
+        "size": 131072
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hidusb.sys",
+        "sha256": "d5198e6bc74a54e9a23c4cc1ed8de011cfe65e76dacb34bde9f6e351598a0e10",
+        "signature_status": "Trusted",
+        "size": 81920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hnswfpdriver.sys",
+        "sha256": "1ca5803ed1df91910d1d7c0d385f078387dc4cc557c7a6766bdb98b4ee94a95c",
+        "signature_status": "Trusted",
+        "size": 58688
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\HpSAMD.sys",
+        "sha256": "a1de9a347d9964bd050cc644f213e09720106d7457482e04a965ae7b51a22554",
+        "signature_status": "Trusted",
+        "size": 65440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Hsp.sys",
+        "sha256": "7935a9d4135285d565e44befc9bd71d98a820541d6e05a8c8afdeda46570ac75",
+        "signature_status": "Trusted",
+        "size": 124320
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\HSPUSB.sys",
+        "sha256": "b79959273329656c952bc550c1ff33ac9be4ddd4080cba5eb87253ae90e25497",
+        "signature_status": "Trusted",
+        "size": 24064
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\http.sys",
+        "sha256": "0eb5ddae6f29ea3b02212037a7dc0257b8cc3ac2f2bad02ba7a64633e53d9a1d",
+        "signature_status": "Trusted",
+        "size": 2008472
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hvcrash.sys",
+        "sha256": "b26d05dbe48695867c73177f8f778e313c49828a31204ae916b24b07c926df17",
+        "signature_status": "Trusted",
+        "size": 75168
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hvservice.sys",
+        "sha256": "9a1d9de8320fd8a92153c49f24851a877a46192bf7afa1449c1a0f61a17c6678",
+        "signature_status": "Trusted",
+        "size": 103824
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hvsocket.sys",
+        "sha256": "d1a2ee56fa70739d8a3eaa9924b0801ccdb86878ecead5e80bb1f4cf9d25a3c0",
+        "signature_status": "Trusted",
+        "size": 189864
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hvsocketcontrol.sys",
+        "sha256": "755ada27a06e9ea9bc690b1e66ef1fe0f1209f50520d32c4de7f7a8204bbf41f",
+        "signature_status": "Trusted",
+        "size": 66992
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hwpolicy.sys",
+        "sha256": "59284096c23e42db4ab27ba81cc953d28367fffbb2ab4bbc7a26e5b35a6bb716",
+        "signature_status": "Trusted",
+        "size": 79264
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\hyperkbd.sys",
+        "sha256": "1a5592cfbc576fd90569d219b5a1e21b9f6a062b54cd6a5974504c393d4549db",
+        "signature_status": "Trusted",
+        "size": 62784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\HyperVideo.sys",
+        "sha256": "59513bd70e155ecf5fb02cfc40d6e747446b4fed57ca4ac3bc7c028b600df1d4",
+        "signature_status": "Trusted",
+        "size": 79160
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\i8042prt.sys",
+        "sha256": "55c265da120760fd6a0a6e4225d01c3543bf2f0400949ca4d198c13cebfe8c5a",
+        "signature_status": "Trusted",
+        "size": 155648
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iagpio.sys",
+        "sha256": "faaa46f22944e043a90ae6e9f0f86af187fc2819c563da375b2a409347bb2c35",
+        "signature_status": "Trusted",
+        "size": 36352
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iai2c.sys",
+        "sha256": "9296a14590dfd94a3c728caf3ca91ba211f27974f9cff8417cddc00d1453315c",
+        "signature_status": "Trusted",
+        "size": 91136
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSS2i_GPIO2.sys",
+        "sha256": "6ff5d13ef69e8fbcb4772c7b5c4d5770c78e0b29f9164fa1611efde91ce876be",
+        "signature_status": "Trusted",
+        "size": 79360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSS2i_GPIO2_BXT_P.sys",
+        "sha256": "2141de558461b592d4111a0388d1aac8062fa72cd1e2a2d2d68279a9633288e9",
+        "signature_status": "Trusted",
+        "size": 93184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSS2i_GPIO2_CNL.sys",
+        "sha256": "e353d90d0b79a70f976fd5ea1cb7e25a97835e25116962ea035424715b2f43fe",
+        "signature_status": "Trusted",
+        "size": 112128
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSS2i_GPIO2_GLK.sys",
+        "sha256": "71fdc25244298d62a335769d6ed43394c33fbd8db05aa54ca924a2977f37858f",
+        "signature_status": "Trusted",
+        "size": 96256
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSS2i_I2C.sys",
+        "sha256": "3f1f9ec7571d0f82d3f5bba298965491260708f05ebaaa2cc23483521a5ff079",
+        "signature_status": "Trusted",
+        "size": 171520
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSS2i_I2C_BXT_P.sys",
+        "sha256": "bf354297a55713d9e2dd4044d42810c007733ee54d5a80d58b96dd279d92c716",
+        "signature_status": "Trusted",
+        "size": 175104
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSS2i_I2C_CNL.sys",
+        "sha256": "f105edd16e38f5c0044cc7139e4084a04b0ae3212171a1c7f6fe759f3f5f77fc",
+        "signature_status": "Trusted",
+        "size": 177152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSS2i_I2C_GLK.sys",
+        "sha256": "a92487129b81376471c842b9932ff3a7b3abbbb89797978e3fdeaf71a6fd5e3f",
+        "signature_status": "Trusted",
+        "size": 177664
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSSi_GPIO.sys",
+        "sha256": "f77696ae55b992154a3b35f7660bd73e0ab35a6eceec1931c0d35748cfa605c0",
+        "signature_status": "Trusted",
+        "size": 38128
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaLPSSi_I2C.sys",
+        "sha256": "8445e41bab21964c7f014742795e462bddc6c37a261990b3d6bf4e637a719547",
+        "signature_status": "Trusted",
+        "size": 113152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaStorAC.sys",
+        "sha256": "9e0d68c5cf758071eaf833976adf7f49be65efa8c95ca7173ac50f72a8fed9b0",
+        "signature_status": "Trusted",
+        "size": 1494200
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaStorAVC.sys",
+        "sha256": "a46a34e6dc1573d29b87ad22b336c6a7358a657a416b1643c0d3dad671d81692",
+        "signature_status": "Trusted",
+        "size": 885568
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iaStorV.sys",
+        "sha256": "7e862c0367b382ade309dea6beb95fd2eed15cae8bdda37658d66484c00f88bb",
+        "signature_status": "Trusted",
+        "size": 413088
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ibbus.sys",
+        "sha256": "4eb00e751f4517edeffee1225ef5e188b352d062b67f4b7d8b885344febf141d",
+        "signature_status": "Trusted",
+        "size": 559920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\IndirectKmd.sys",
+        "sha256": "22b111d3a8bf29abfbee53031a2cf036ed92891203db324693075ef30a384bbd",
+        "signature_status": "Trusted",
+        "size": 94208
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\intelide.sys",
+        "sha256": "4d363130cd9b5c14b6eca49bd137184162eadb36c10827d82ddf12e3fb8aa106",
+        "signature_status": "Trusted",
+        "size": 58768
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\intelpep.sys",
+        "sha256": "7d106b3634b0206ad8357689a27137d8cd89534986e8557c9eff1942726619aa",
+        "signature_status": "Trusted",
+        "size": 641416
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\intelpmax.sys",
+        "sha256": "af0c3c9ae1db6f60c65c0a046f01c740bd47e10b73fbf0a3a05bb0ab8542362b",
+        "signature_status": "Trusted",
+        "size": 65536
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\IntelPMT.sys",
+        "sha256": "189f4cfbbdde22cbce5e4b61b128987cb55fd983b03dc492a98d5f8b3099fe01",
+        "signature_status": "Trusted",
+        "size": 87640
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\intelppm.sys",
+        "sha256": "f3c66c1a28a341298db3db436304f11b57a4f1b1659eb70eb4bc8a253cdedd8d",
+        "signature_status": "Trusted",
+        "size": 300432
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\iorate.sys",
+        "sha256": "254cf4d65b4f67488f606edf0bb8bee553c85cb72d3f027fff3647c4655c1d18",
+        "signature_status": "Trusted",
+        "size": 95664
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ipfltdrv.sys",
+        "sha256": "a7479badc1e7807cbba423b7b34a528c1eaafdc666361684a955ffe16dbd106e",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\IPMIDrv.sys",
+        "sha256": "b1799fcabe537f2e35e192af38b73274036fe50fd1526bc2a8c3963cb4608733",
+        "signature_status": "Trusted",
+        "size": 165304
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ipnat.sys",
+        "sha256": "8ccc6c77edf4ce65d725bbde3fa0de3bbd0d5b82218e73244e74537b11e7b535",
+        "signature_status": "Trusted",
+        "size": 253952
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ipt.sys",
+        "sha256": "2628245d7886268f79b80907d364a6139312cfbc9d013ad9bfbd94c76fb49f6b",
+        "signature_status": "Trusted",
+        "size": 99744
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\isapnp.sys",
+        "sha256": "f4dc0b159729d5404fefb7784c6807dde9b7c81b70cb21a2d34d31f321f17fce",
+        "signature_status": "Trusted",
+        "size": 58672
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ItSas35i.sys",
+        "sha256": "5e7abce438ff8a3e03f1c235685a95c9bc787b87854efaf2c6eb5764b8269d4e",
+        "signature_status": "Trusted",
+        "size": 187200
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\kbdclass.sys",
+        "sha256": "cd7b0e33cc7f7454573edb79de31a4b983bb4dbcfed1ffe18c2af04967efcb41",
+        "signature_status": "Trusted",
+        "size": 95552
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\kbdhid.sys",
+        "sha256": "1149e683534428e8173be5b71f9a92ddd432f159211c52c1d40db0278de64824",
+        "signature_status": "Trusted",
+        "size": 77824
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\kbldfltr.sys",
+        "sha256": "fdb3adcd2ae3a7bd7807df015be00e581f93f162bf9b4c9a943bbaea43045130",
+        "signature_status": "Trusted",
+        "size": 63344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\kdnic.sys",
+        "sha256": "67cb8edfa87d3e0fc92afb67a092f2b43f428957153ca6da65d4d150c269cd48",
+        "signature_status": "Trusted",
+        "size": 79176
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\kdnic_legacy.sys",
+        "sha256": "76e0ecd9d0b6acab034a33c33a5f2fae93bbaa55244719fb80bcf581281e0493",
+        "signature_status": "Trusted",
+        "size": 70976
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Kerb3961Kernel.sys",
+        "sha256": "878c2e6d63a9a458784d2754f6c21063c6f010294a903a1ec6f07358dced7461",
+        "signature_status": "Trusted",
+        "size": 144792
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\kmpdc.sys",
+        "sha256": "cd4a9287e5292352d34d63f48afa2747d713b1e333dc457f46318b2680c9d5cb",
+        "signature_status": "Trusted",
+        "size": 79264
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\KNetPwrDepBroker.sys",
+        "sha256": "b459883a5bbe53e1f06334460d9db4f8eb59af63f1b9058ea0750dbafe618af1",
+        "signature_status": "Trusted",
+        "size": 81920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ks.sys",
+        "sha256": "6ec75b0aa073cd89810a03650a25939c1a8da8de1984ab8d1fd663c27463a1a4",
+        "signature_status": "Trusted",
+        "size": 548864
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ksecdd.sys",
+        "sha256": "6ff4e5f8a07feb0930c15b3fc81f57489967637dc82bbfa88f37d906f3c0ec8f",
+        "signature_status": "Trusted",
+        "size": 210320
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ksecpkg.sys",
+        "sha256": "6ec8dfe2a4e1289d00b76e867ae3a2f19797bf74c5a400838764abc1fa871173",
+        "signature_status": "Trusted",
+        "size": 226688
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ksthunk.sys",
+        "sha256": "68e6a8495e646583dc1f8f1158d7e15024c2c8fda084140b43dde401e4fb7e99",
+        "signature_status": "Trusted",
+        "size": 73728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\l1vhlwf.sys",
+        "sha256": "5b79369425d24dda3401c4e93e4c0345f144b85daaa96773130f7708635d3e2f",
+        "signature_status": "Trusted",
+        "size": 140712
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\l2bridge.sys",
+        "sha256": "d2d185dab4234bf325543b898677cb976e737b240293dc88a699ee7ab159b277",
+        "signature_status": "Trusted",
+        "size": 103824
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\lltdio.sys",
+        "sha256": "44200163b7f0798f98ed705f6e27a3e63ae9271f632bba6350ab4e682291af1a",
+        "signature_status": "Trusted",
+        "size": 106496
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\lsi_sas.sys",
+        "sha256": "2d3860a83b5e12c355a1f6f6dd7d61a41c0ba05950510d0655457b97584e4cc4",
+        "signature_status": "Trusted",
+        "size": 110000
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\lsi_sas2i.sys",
+        "sha256": "b0cfed90a269fc79767f2012c64bd256451feab1948fde416daff95a85ff8a69",
+        "signature_status": "Trusted",
+        "size": 125344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\lsi_sas3i.sys",
+        "sha256": "aa3f0407e20a2d7e90d412f4325fb0d7124f12eec4215cd32a7df9aa5322d135",
+        "signature_status": "Trusted",
+        "size": 138560
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\luafv.sys",
+        "sha256": "bd0079dea32889c56293724290939110d7927b8f6554c519f909515f7f4d5b00",
+        "signature_status": "Trusted",
+        "size": 188416
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\lunparser.sys",
+        "sha256": "073c7248081a23e6d758ceb1ab046dc8715d984ad7e01d0a120b2ef4e89e3f62",
+        "signature_status": "Trusted",
+        "size": 70960
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\lvrs64.sys",
+        "sha256": "4347277c84b47e4cc048850bdefb258cfb3b476aa99fd503fd71fbb70fff5acf",
+        "signature_status": "Trusted",
+        "size": 351520
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mausbhost.sys",
+        "sha256": "a51512b4eb63c9d3a05b569df6afe161490fada5765828e37fcd9a6fe4de488b",
+        "signature_status": "Trusted",
+        "size": 566696
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mausbip.sys",
+        "sha256": "cbc4f759840a41c27355b548356df898d987f68e7ed2487be5eb4f23a32194c0",
+        "signature_status": "Trusted",
+        "size": 99736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mbae.sys",
+        "sha256": "c990dd89b65d35d6c9b34e21c78d96e206ec3bcdd934716ee61ff79da0fa5251",
+        "signature_status": "Trusted",
+        "size": 159296
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mbam.sys",
+        "sha256": "861f7b527f36d4acd8a60b973a48f89a17e6fa348e2f138b116e6f1e1fe52733",
+        "signature_status": "Trusted",
+        "size": 80960
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\MbamChameleon.sys",
+        "sha256": "d86b9b20788b6bff70a1a4c4111b2ea33b9ec705cc6b8fe869362fc3899820a3",
+        "signature_status": "Trusted",
+        "size": 234072
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\MbamElam.sys",
+        "sha256": "ded569e249e590314d095f740c6b8934a5a797e4f3edbe0f78eac9d333f12a2a",
+        "signature_status": "Trusted",
+        "size": 22120
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mbamswissarmy.sys",
+        "sha256": "59232d92bc9488780dd4350e502c652b3c15d7c19ecda5fdc863968518cc0002",
+        "signature_status": "Trusted",
+        "size": 242752
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\MbbCx.sys",
+        "sha256": "774b09abd65a4cf7675f884ed9f827375a15f8f54cd5892cfa2394d2dd16622a",
+        "signature_status": "Trusted",
+        "size": 491520
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mcd.sys",
+        "sha256": "9e0d0caacaa4cd61fd5a1e4f6eee63dcac894d92059c916d9968a5081225851f",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\MegaSas2i.sys",
+        "sha256": "03713bdcd061cf24d8dc4d8b4cd250e28a5946c384e60644cb4328dc42b8f50d",
+        "signature_status": "Trusted",
+        "size": 81840
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\megasas35i.sys",
+        "sha256": "ef1aa5eb345a92a1b657a4d010500bbd1ec731b8ec22a35472f5d2da96138ec6",
+        "signature_status": "Trusted",
+        "size": 101168
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\megasr.sys",
+        "sha256": "6ca30a0b91dd54edd33c3ec41e6922d329ed38c4955e38c04745328961b31974",
+        "signature_status": "Trusted",
+        "size": 576944
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Microsoft.Bluetooth.AvrcpTransport.sys",
+        "sha256": "51a8a7297ad4b5e49193c0190f44eda042099349f70373c8aaf1ae90a0e115dc",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Microsoft.Bluetooth.Legacy.LEEnumerator.sys",
+        "sha256": "ca730f62b55fef019b26793b065c07afc2e51807d3d02107d3e328ba6f6a1e33",
+        "signature_status": "Trusted",
+        "size": 155648
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mlx4_bus.sys",
+        "sha256": "211bdc6bb0720ee7221d77f205bd828ab4172ac4f454877beaf5e3d74419442c",
+        "signature_status": "Trusted",
+        "size": 1132336
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mmcss.sys",
+        "sha256": "d560005584caf6d7ec17ce15c28be527775f91c5d9dbdc1f2225287b711c8500",
+        "signature_status": "Trusted",
+        "size": 90112
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\modem.sys",
+        "sha256": "8c9d92c3fba0e244648e222ab6d6a7d59b51f92c22d2f98d3e1f0bee1d459eb0",
+        "signature_status": "Trusted",
+        "size": 81920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\monitor.sys",
+        "sha256": "dc657727f82b1e649de388ac843398e7931f584dbf412035b18d1787ee0da158",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mouclass.sys",
+        "sha256": "0cb695cdd5edd557ed9e544e2dad3fe9ec6684f81c1b7bbff0a841bf1c495339",
+        "signature_status": "Trusted",
+        "size": 95552
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mouhid.sys",
+        "sha256": "0675a2d2b5488af06ed72f13f687290189a61111ca048c33122657b07fd74458",
+        "signature_status": "Trusted",
+        "size": 69632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mountmgr.sys",
+        "sha256": "9c21db5c8e46481999c933ed95d44c1e880d6648b167933bd85fc76360875a14",
+        "signature_status": "Trusted",
+        "size": 136576
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mpi3drvi.sys",
+        "sha256": "9ed1f6d7de917cf5b387eb1856bf2ea6be69cdc804adb3cab00b00647c25c163",
+        "signature_status": "Trusted",
+        "size": 90544
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mpsdrv.sys",
+        "sha256": "d640f00f5e152782906d443981f7577dbaa1960058e27b7683ba029182f5a220",
+        "signature_status": "Trusted",
+        "size": 114688
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mqac.sys",
+        "sha256": "ab2f6e462ad1f9bb0d6f1d182d3590489e2d81885a1b60f93389ac0f7348a5f0",
+        "signature_status": "Trusted",
+        "size": 212992
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mrxdav.sys",
+        "sha256": "6d22c357e2a2bf93d1b9ef34818cd861e6bfcdbee21aa64182bb4c73bc3dcec8",
+        "signature_status": "Trusted",
+        "size": 196608
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mrxsmb.sys",
+        "sha256": "7418ba95448036c2a0de6b3ba2fbd90ee4a1805f852f99d5aa7b14f4f022d70a",
+        "signature_status": "Trusted",
+        "size": 931240
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mrxsmb20.sys",
+        "sha256": "0043c422f146271202a32b3a38c63f6f2b4788b72ebcfc19a629a2f7a81af17e",
+        "signature_status": "Trusted",
+        "size": 390584
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\msfs.sys",
+        "sha256": "47eca1acc29767b065a3e9da11151f6c6a755f73b5dc477f8fa255197fa68a70",
+        "signature_status": "Trusted",
+        "size": 79304
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\msgpioclx.sys",
+        "sha256": "9cf84bcc48bc5217df1c0785b1c9dff558b0d6528cf88bdb9ad19de48da69427",
+        "signature_status": "Trusted",
+        "size": 226728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\msgpiowin32.sys",
+        "sha256": "273b2b6c9b66f907f21561086240678e115be27b6cd2b950624efbdb5b9cfda4",
+        "signature_status": "Trusted",
+        "size": 95648
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mshidkmdf.sys",
+        "sha256": "760e5e19767e01a1a37d40e7b90cfaafee6a0dc892391f199789ee5f9ef5e535",
+        "signature_status": "Trusted",
+        "size": 49152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mshidumdf.sys",
+        "sha256": "4e310617a209a1e7a924674ae3dd2c0a6d06828c7da3d2e6d82cd7070bc0d353",
+        "signature_status": "Trusted",
+        "size": 49152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mshwnclx.sys",
+        "sha256": "3a245262ebbd2c661395ab770a18fdc774ee34e31a1ef96cf391ea068aa2469b",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\msisadrv.sys",
+        "sha256": "df2bf42c5cd3401fa0215ab3eea91efd07edce240f36e30fb14371f5c4b3ad80",
+        "signature_status": "Trusted",
+        "size": 58672
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\msiscsi.sys",
+        "sha256": "680f31d2b60b8404c98d671477cfc0c9ddbc287f28811432c28c9bc1c11e03f2",
+        "signature_status": "Trusted",
+        "size": 333256
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mskssrv.sys",
+        "sha256": "0b164dc25e050ea505ce64c4861f10cf618852daceff36ba1389396eb96b17a2",
+        "signature_status": "Trusted",
+        "size": 81920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mslldp.sys",
+        "sha256": "75a1237213b66d483a78f3c21c51415cda38bf120038cc4ab4d80765402c4c22",
+        "signature_status": "Trusted",
+        "size": 106496
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mspclock.sys",
+        "sha256": "bd1fe741ad4f17224f55ef0ece4462ad7c052b39a71cb959c68b70706788d283",
+        "signature_status": "Trusted",
+        "size": 49152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mspqm.sys",
+        "sha256": "a52cb9915e9d022201e6d9c4a4d1b79be63ca2cf4bae681316f2dc817859a625",
+        "signature_status": "Trusted",
+        "size": 49152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\msquic.sys",
+        "sha256": "1698f25201c1372670f64d472477d362e9e4a29c157f32ddb8524f711b28957e",
+        "signature_status": "Trusted",
+        "size": 517544
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\msquicprev.sys",
+        "sha256": "0907723ff338a9d79acd0fa84dc7577784444080999616405a81242f1d9f06ec",
+        "signature_status": "Trusted",
+        "size": 505232
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\msrpc.sys",
+        "sha256": "c9dee0f51a94e127d703a47d7625a974570712cfe1ce0cc288ec09c989d4b0a7",
+        "signature_status": "Trusted",
+        "size": 411040
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\msseccore.sys",
+        "sha256": "f2eb15cde4af9705ef8901553f1fd9a4cfa6d3905653ebefc1463ebafb0196e4",
+        "signature_status": "Trusted",
+        "size": 71040
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mssecflt.sys",
+        "sha256": "8479fe812a50582a63897cae4fb985d7b2e0b49cad9eaf9cf70b245edd7708e3",
+        "signature_status": "Trusted",
+        "size": 383912
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mssecwfp.sys",
+        "sha256": "48d5a504da730ee8c2b3637c5fb0b55ad822f69e57b208cb9a0c38c36a046d7c",
+        "signature_status": "Trusted",
+        "size": 33184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mssmbios.sys",
+        "sha256": "b158d81780504ab412c17bb9db0c710f6ad9c7f2b75e7095c2fc2fc1847dc9a0",
+        "signature_status": "Trusted",
+        "size": 79152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mstee.sys",
+        "sha256": "9f935a7b343a98babebe3c0c5c215bc96a04e7453eb7de3d16d52c341440bd68",
+        "signature_status": "Trusted",
+        "size": 57344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\MTConfig.sys",
+        "sha256": "c68818ce3acf1b50a8b39690489a2f51d73ba61a397d22f7b907bcabdbffaecb",
+        "signature_status": "Trusted",
+        "size": 53248
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mup.sys",
+        "sha256": "ffa342e54217204e1cc5437cb55dfa36e589a726f4aaa2fc5532ee3910bd59e6",
+        "signature_status": "Trusted",
+        "size": 181672
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\mvumis.sys",
+        "sha256": "55ca3903d53aeabe3297cb5a52598cab2775d28f9821b94f124fefa6302ee4b5",
+        "signature_status": "Trusted",
+        "size": 64928
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ndfltr.sys",
+        "sha256": "b712379ca3ece73efe1a9dd1bb94bc7ca0c4e3d68fcca9a99888f67e11af00e8",
+        "signature_status": "Trusted",
+        "size": 147248
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ndis.sys",
+        "sha256": "6965d0f1a6cf7242872c5cad0423bd5a2ab54b98cbe40222da4851aa71877ab7",
+        "signature_status": "Trusted",
+        "size": 1873296
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ndiscap.sys",
+        "sha256": "640a838b80bb24cd8f7ca30e38e25ca5fe9272f239973dfe69cb21eee6a27584",
+        "signature_status": "Trusted",
+        "size": 86016
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\NdisImPlatform.sys",
+        "sha256": "3ed615ff5537e761333a2d96f22d609d351f192a54363aa5b815aa3905dd6246",
+        "signature_status": "Trusted",
+        "size": 163840
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ndistapi.sys",
+        "sha256": "1c5df57f2e7eefbfe1a113d283a78718096360b296dbfabf757fc40273a9afed",
+        "signature_status": "Trusted",
+        "size": 65536
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ndisuio.sys",
+        "sha256": "066cc6d74febbb6d655a7623d9700dc42b040bff7152b6b534f03b310fb8125f",
+        "signature_status": "Trusted",
+        "size": 102400
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\NdisVirtualBus.sys",
+        "sha256": "5620649d1a8f0f38f367e473bdbeb80a3a89a4a21326e2304cd0389d24c68511",
+        "signature_status": "Trusted",
+        "size": 57344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ndiswan.sys",
+        "sha256": "8e8c61ccc3a0f4123cdcd9e328d163011c064ece7fc6750e3e0ae5ad1c48643e",
+        "signature_status": "Trusted",
+        "size": 253952
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\NDKPerf.sys",
+        "sha256": "49d9962a3e52f7da104c9c06f9067c638aa1a5961daa7bad9dc80b4806c9171c",
+        "signature_status": "Trusted",
+        "size": 83360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\NDKPing.sys",
+        "sha256": "23e70fd342e45a986ddae97712b5b33adfd536e49a3f5b9e245a1f7c55ef341a",
+        "signature_status": "Trusted",
+        "size": 107936
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ndproxy.sys",
+        "sha256": "0fdf33cd2f51a31810df60ea5cd14d88ba3f411b3825e83fa18028b7ac510145",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Ndu.sys",
+        "sha256": "c7b73319d9f220d4f91d1ba04f34541c048c7e86d5e1f8117edf6c215e7350da",
+        "signature_status": "Trusted",
+        "size": 192512
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\netadaptercx.sys",
+        "sha256": "f73c43c6803837074bcf65c5069a0519a265f894d9e76eef1762d22f6db2c8b8",
+        "signature_status": "Trusted",
+        "size": 394640
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\netbios.sys",
+        "sha256": "29c10b2bd9c7272c7c71462f39252a75de0159eccfc58bdf1c407d8c226f0afc",
+        "signature_status": "Trusted",
+        "size": 99632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\netbt.sys",
+        "sha256": "705b3cdc1a19c34c19ab70a4d6e0fd7fe35542de7dbd8ceb423164e8072e6c42",
+        "signature_status": "Trusted",
+        "size": 352256
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\netio.sys",
+        "sha256": "a0a7c39645e3018a988955c82ebf3c4d43793f7a641297c4eac536147eee11c8",
+        "signature_status": "Trusted",
+        "size": 751016
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\netvsc.sys",
+        "sha256": "f36a2123eab0771291d13546376884562f764c5901b11ca8fde006a2bd64c301",
+        "signature_status": "Trusted",
+        "size": 398760
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\NextDNSEngine.sys",
+        "sha256": "3a6acb631f6259c4da569ccc740e116ffba9a1b3fd8cce81df0071eb75ad285f",
+        "signature_status": "Trusted",
+        "size": 55432
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\npcap.sys",
+        "sha256": "734c62543768e37c36386b4a07582bb5b322a60d5c997626465725c5b5cef978",
+        "signature_status": "Trusted",
+        "size": 69984
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\npf.sys",
+        "sha256": "4bfaa99393f635cd05d91a64de73edb5639412c129e049f0fe34f88517a10fc6",
+        "signature_status": "Trusted",
+        "size": 36600
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\npfs.sys",
+        "sha256": "dd9e23e52897d3381cc7bb93059484cf9c33fe6ab2ddbad6838104947ab0eb6e",
+        "signature_status": "Trusted",
+        "size": 120224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\npsvctrig.sys",
+        "sha256": "dde7961a0323d8450a3506af210ee5ab8eacde91d6f78f6d91d52c456fb9a3a3",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\nsiproxy.sys",
+        "sha256": "c6880559281ae47a5dddccd3b2df5fc661a9f84c58fe981bb4e90b04a91da9e9",
+        "signature_status": "Trusted",
+        "size": 77824
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ntfs.sys",
+        "sha256": "0d075c5ea39244a95afa60a2d03d8d851fd9625efb03040f4ee04121b6a403aa",
+        "signature_status": "Trusted",
+        "size": 3552680
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ntosext.sys",
+        "sha256": "064e3d4ce1a8732147ead2a7824be45a5b23fe8dc3a445254c558bf55642b679",
+        "signature_status": "Trusted",
+        "size": 62896
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\null.sys",
+        "sha256": "4fe3ba886ba5b90b50356c88f8888d408cf88600f3e214e6b9af449efb07f4de",
+        "signature_status": "Trusted",
+        "size": 45056
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\nvdimm.sys",
+        "sha256": "f33bdc14feb52e514744f14c1c6cc69ed5973b0a8e54eedfcb629452041da48c",
+        "signature_status": "Trusted",
+        "size": 210376
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\nvhda64v.sys",
+        "sha256": "20c53e79ae686fdcabce253350345b7ef8e0b2eeb4c7b54c53dd9fd97f4c4f80",
+        "signature_status": "Trusted",
+        "size": 131656
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\nvmedisk.sys",
+        "sha256": "806d86f18bc0c8f925077d8825e16ab8dcd8d0d096275f99209ba9874e4066de",
+        "signature_status": "Trusted",
+        "size": 124360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\nvraid.sys",
+        "sha256": "db769bf751d7b23ffce8cc1baabb335da5da15e06a845a049eb68c3791686fed",
+        "signature_status": "Trusted",
+        "size": 151472
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\nvstor.sys",
+        "sha256": "6c52424748a9f88a3c0c33a1a4d9813107066fc7550b7c27ba3dd3d606df4fca",
+        "signature_status": "Trusted",
+        "size": 167344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\nwifi.sys",
+        "sha256": "e40072b85c85a2567388dd23d97b833c5981a4498f82b5e40bf6875d4edeba9d",
+        "signature_status": "Trusted",
+        "size": 856064
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\p9rdr.sys",
+        "sha256": "e58a39359b3823169c23b25894aab76450017b255695e83b082a899b11001b5d",
+        "signature_status": "Trusted",
+        "size": 148888
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pacer.sys",
+        "sha256": "c1e49f1db3dad79b6fc1ba50b619d02823d3330712ea40fbaee34c4ef773097a",
+        "signature_status": "Trusted",
+        "size": 206152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\parport.sys",
+        "sha256": "46b916329c1e92f4d47a1ea9f5f2d92f72bdb624b0297df2badfefbeb4b8c6de",
+        "signature_status": "Trusted",
+        "size": 135168
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\partmgr.sys",
+        "sha256": "d16f900c24d59b0f42fb07a59782c70fc558f35fa9e1d01d89f687c357d62a9f",
+        "signature_status": "Trusted",
+        "size": 226704
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\passthruparser.sys",
+        "sha256": "57cc7e6cbbcda83ed90cc485771c2b5ae9127d17c190b4555bbce0fb764cdad7",
+        "signature_status": "Trusted",
+        "size": 71088
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pci.sys",
+        "sha256": "78260f2a86058c4c88b2db6942c508c902202f18ee8571d0193cb58d373cc321",
+        "signature_status": "Trusted",
+        "size": 611728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pciide.sys",
+        "sha256": "72a8c7c8122ada624fc98963994091ff16b12fe8ae7f0361fdab2df4ab7d3679",
+        "signature_status": "Trusted",
+        "size": 54672
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pciidex.sys",
+        "sha256": "fa38438200eec81f6b516e56f46d479f2ef9089d9e703428e9cdfc2a68dfa8a4",
+        "signature_status": "Trusted",
+        "size": 91560
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pcip.sys",
+        "sha256": "c1620e34b97e27b8e2057d7ccbabd426288138eaeeb65338cc427463db61a884",
+        "signature_status": "Trusted",
+        "size": 124288
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pcmcia.sys",
+        "sha256": "505f1106fcb85c22fb2b68b8ebdc945a0c361ec12f8fbc4ff2c412d58bb785d9",
+        "signature_status": "Trusted",
+        "size": 156992
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pcw.sys",
+        "sha256": "ef9ae94a1a62ab3bbe01b926fcfc5d4d0fecb95e660310fa977e4470c0c45542",
+        "signature_status": "Trusted",
+        "size": 99632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pdc.sys",
+        "sha256": "35c19b9a5bf6b5328b699701bbd856b447bbfa041b9cbf04e38be7ee59b831f0",
+        "signature_status": "Trusted",
+        "size": 222632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\PEAuth.sys",
+        "sha256": "d9569d18abbadf934b4d652671918a16df11bf3eaf388d29284680ee8551f5e3",
+        "signature_status": "Trusted",
+        "size": 868352
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\percsas2i.sys",
+        "sha256": "7026717ebc767674c3b52e2465fd9298ce02f7560a096162e9b50d6782a8cf08",
+        "signature_status": "Trusted",
+        "size": 59824
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\percsas3i.sys",
+        "sha256": "32843e02f6f814336989698031eb8ec222db8e299f8bdc4d34c1cbffa4babf48",
+        "signature_status": "Trusted",
+        "size": 69552
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\PktMon.sys",
+        "sha256": "ce6ddf2d1aaffba3313a78897c154afbf0998fafc89de7d9474823e64b422e1e",
+        "signature_status": "Trusted",
+        "size": 222616
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\PktMonApi.sys",
+        "sha256": "6e30a4430d5cb4d02b4c379fb795faeee6e373da05a9c21c54debb429f5893db",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pmem.sys",
+        "sha256": "b232df83d43a4ea738a2944858d0f2eac5f563b9e61af51623736118737d4ea2",
+        "signature_status": "Trusted",
+        "size": 185784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pnpmem.sys",
+        "sha256": "74468ba2353cff2c555723d032d3e2129a1675e071c22b3904146548a6d6c6f0",
+        "signature_status": "Trusted",
+        "size": 53248
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\portcfg.sys",
+        "sha256": "b11622606790b5ca52fa344d21edd8ec303abda8f7f0d3ad82a932cabbff3efb",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\portcls.sys",
+        "sha256": "ebb88d39d52c7e7e3eb3b588a943168fabc1b9770785816c931a5189db7eb562",
+        "signature_status": "Trusted",
+        "size": 479232
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\prjflt.sys",
+        "sha256": "f342940dc83656d0c473e12e3ad06be9fd4b9badd8da8cbbcc6ecd0d80dac6d0",
+        "signature_status": "Trusted",
+        "size": 300432
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\processr.sys",
+        "sha256": "ea9a1fe2a6295c5e1d70e583039664e5c605f0e447e3381aebb4f700e629a01f",
+        "signature_status": "Trusted",
+        "size": 271760
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ProcLaunchMon.sys",
+        "sha256": "3fcac4371460ef510bea9d772ffad68d2af0720078ac3bd84bd1e4979cf882e4",
+        "signature_status": "Trusted",
+        "size": 79880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pvhdparser.sys",
+        "sha256": "07c54dc7bb067672ceff5d37744d041f23cf5b2cc634c88a32017f149bf5d85c",
+        "signature_status": "Trusted",
+        "size": 95664
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\pvscsii.sys",
+        "sha256": "db637123a22e12c848086d65bf57c4a5ee48c5c64a323004fa05e07bb4366f62",
+        "signature_status": "Trusted",
+        "size": 45488
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\qwavedrv.sys",
+        "sha256": "58986d2caddfbbf5e16ffe0670d8c5ec5642307cfaad92fffa5646555fed1e87",
+        "signature_status": "Trusted",
+        "size": 90112
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ramdisk.sys",
+        "sha256": "4daaa55599fbc602de4f193aef2d92e6d4aa5d072ec70ae47825df7eaa0b07ec",
+        "signature_status": "Trusted",
+        "size": 75056
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ramparser.sys",
+        "sha256": "1419a07301ef3ccbbba86abb8d6f0fa86cb3dd896da5ad7d35f56128c86dfeb6",
+        "signature_status": "Trusted",
+        "size": 75184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rasacd.sys",
+        "sha256": "cffa968eaf89b08f6f3c5bffacfbd1b3f22e7caa5a9fab0cb514f45cd0d4281c",
+        "signature_status": "Trusted",
+        "size": 57344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rasl2tp.sys",
+        "sha256": "5ff3658b38f2ae00473c7d71d35bbdba0519bd76ae189d6f7cfbc0d6b6c07ebc",
+        "signature_status": "Trusted",
+        "size": 147456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\raspppoe.sys",
+        "sha256": "fdebc7f3d705c4fc41b16a86f09f58fb858400bfe90957b397b3340e7065f8a1",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\raspptp.sys",
+        "sha256": "aca41d5de5a4e0dd228ecaf8f31b240bc20f1896a3028b3d38b7c8bfc5b9c0be",
+        "signature_status": "Trusted",
+        "size": 147456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rassstp.sys",
+        "sha256": "7ba648618ac7b324fe2df967e657c6a756f55454cf7b7af804309239a43924f5",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rdbss.sys",
+        "sha256": "84597eab4c89956218ab15246137f698f4881d78a853c3981b928119dd416db9",
+        "signature_status": "Trusted",
+        "size": 566656
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rdpbus.sys",
+        "sha256": "d75cffc80f2b836c3c86014da9b6d492d497ad6d40b7b889ed6d43bb07f6f34a",
+        "signature_status": "Trusted",
+        "size": 57344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rdpdr.sys",
+        "sha256": "d095e20ec9561351773011bbc3734a688ef6d16d3c49f237d349031b8dc048ac",
+        "signature_status": "Trusted",
+        "size": 212992
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rdyboost.sys",
+        "sha256": "eaf9583bde8e8e6d36fb4ce196ab56e527ec16f11e063163b4a086d84978446e",
+        "signature_status": "Trusted",
+        "size": 325032
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\refs.sys",
+        "sha256": "02d38517697b06b82e98a837468ddb57ecf453c882f04104d00721b08793968a",
+        "signature_status": "Trusted",
+        "size": 3548560
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\refsv1.sys",
+        "sha256": "098010248fa68f2e9bb2bc1754ed29a9923eba27757f6d09387aa76ea8eb5b2a",
+        "signature_status": "Trusted",
+        "size": 1000864
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rfcomm.sys",
+        "sha256": "d9d9de32068695c3dad147c58cf76dfa8ab4c9b2245a5e9c4d63ecaa4ef61c4c",
+        "signature_status": "Trusted",
+        "size": 249856
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rhproxy.sys",
+        "sha256": "816c553ec9382554d13162a9c30213ac54ce503858c5dbd84c8b1be1c9e3c5d1",
+        "signature_status": "Trusted",
+        "size": 143360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rmcast.sys",
+        "sha256": "3566054913e1c48bbdb34d2db2de83983e9b079044949fb37bebc92d7f4d41b3",
+        "signature_status": "Trusted",
+        "size": 188416
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\RNDISMP.sys",
+        "sha256": "fa9ca840f6613ce7869cd2a152945f8feb1152caa41cb1864f31439fdbbc6fe1",
+        "signature_status": "Trusted",
+        "size": 73728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rootmdm.sys",
+        "sha256": "b17b667d918366ccf6103c91219fd195a939e1df9549102ce07c9fc84466d695",
+        "signature_status": "Trusted",
+        "size": 49152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\RoutePolicy.sys",
+        "sha256": "4e55d264e9fb1a05273c4562fc5009ba51af9576767bc1d2b6a28c75c2a17f03",
+        "signature_status": "Trusted",
+        "size": 118784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\RsFx0500.sys",
+        "sha256": "55688fcc20f311931fb13259a7eaae13ec96461b7991230b8e8fce349a2e0d98",
+        "signature_status": "Trusted",
+        "size": 261848
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\RsFx0501.sys",
+        "sha256": "e22111e606e5b623a05eaa2bca41d346fe7bda25169d19d544bde51cd343c2a3",
+        "signature_status": "Trusted",
+        "size": 261784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rspndr.sys",
+        "sha256": "b6aace3503ad7c0b30f02513d6e32210d69acf89d616dfcfe67f460a06afb243",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\rteth.sys",
+        "sha256": "ad633fab8a7b61337b9ef6ad7651f213bfeadc2caa741af95dbf20e5c3ec8bce",
+        "signature_status": "Trusted",
+        "size": 86016
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\RTKVHD64.sys",
+        "sha256": "65bb44337cfbab53777e21cad2fbee536c8967f3370ea00fd1d90a29a3ac262a",
+        "signature_status": "Trusted",
+        "size": 6233968
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sbp2port.sys",
+        "sha256": "7027e3fe0fb1f3bd5600927eca4a6d0c763ff3695f14b59a757b668bb9d6e55b",
+        "signature_status": "Trusted",
+        "size": 148912
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\scfilter.sys",
+        "sha256": "14d8f1a085faa74374b453a7ed9393b093824fa50f0a650b07628efd42277064",
+        "signature_status": "Trusted",
+        "size": 77824
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\scmbus.sys",
+        "sha256": "6c30e5000aeaeb98a0817923745fb3c4d423fdf6ade5f5ca0fd483e8bed5fc19",
+        "signature_status": "Trusted",
+        "size": 263552
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\scsiport.sys",
+        "sha256": "0644b97f847ef3f1c9cb053d50be73f043e59278d3748b84130e459c1b39a83a",
+        "signature_status": "Trusted",
+        "size": 226736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sdbus.sys",
+        "sha256": "00b6e14d9ab384ab614dd8ba62860c8833fd709d47d5b0fd3c0e7675e4a5be0f",
+        "signature_status": "Trusted",
+        "size": 345472
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sdport.sys",
+        "sha256": "b8e738d974fc5d618665ce8ca2b1bb3c0a1bed09855b8b9be39754ebd9ad6fed",
+        "signature_status": "Trusted",
+        "size": 140600
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sdstor.sys",
+        "sha256": "73733af4e89febec01b49e36d46f353cce1ee79faa6cff28999045586addc000",
+        "signature_status": "Trusted",
+        "size": 140672
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\secubus.sys",
+        "sha256": "7db1ac56ba0551b1408f4a959c8d6f8f12a6823f058eea902efa8a7e4a21a3a0",
+        "signature_status": "Trusted",
+        "size": 118784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\secuwh.sys",
+        "sha256": "7e75dc27e8ff22ced5cd6764e5863fc9fa61214e4d22a121f59f8e0ebb67ee03",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\secuwhnt.sys",
+        "sha256": "7e75dc27e8ff22ced5cd6764e5863fc9fa61214e4d22a121f59f8e0ebb67ee03",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\SerCx.sys",
+        "sha256": "60fa91dcab5ae2a092ba5c8ed5c8850c9f78d2b93bf3cf7413c1b9e5eca20dec",
+        "signature_status": "Trusted",
+        "size": 120128
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\SerCx2.sys",
+        "sha256": "d2f7ebfe1144fd1a2f456e4bbc3a9b90b9d57f12f86fb2b535cabfd138e27dd7",
+        "signature_status": "Trusted",
+        "size": 218544
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\serenum.sys",
+        "sha256": "59d9888a42e20faeff78bc3312e0015148c5c21abcb0799e1c93fe24b70210f8",
+        "signature_status": "Trusted",
+        "size": 65536
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\serial.sys",
+        "sha256": "0cce651e05c888a994c4370233e0f68ece99821e652cf075ea389a1b8f62515f",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sermouse.sys",
+        "sha256": "15b5a47cff67ef58df5712d97bd9c32aa2575568f5c4243f760e39a51e7b0fb3",
+        "signature_status": "Trusted",
+        "size": 65536
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sfloppy.sys",
+        "sha256": "1a1db0978d1a3f012cbe0ebf914106b38e1778b3f4919cac550771f9f76eaeda",
+        "signature_status": "Trusted",
+        "size": 57344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sisraid2.sys",
+        "sha256": "b4a9423e6a418565bfca7f1c41940a5cb899e08b77ba13fe0b5394aee693002a",
+        "signature_status": "Trusted",
+        "size": 45984
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sisraid4.sys",
+        "sha256": "6ec82d50515963c7ed8a114fd3ff21a05b98fd0c7c84341dd8ac98af379a3848",
+        "signature_status": "Trusted",
+        "size": 82848
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\SmartSAMD.sys",
+        "sha256": "0aacf89126c5cfa00d33fdab2b79e6cf15e6e4dcb8eea13a4ab4d062d1239f53",
+        "signature_status": "Trusted",
+        "size": 210848
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\smbdirect.sys",
+        "sha256": "70dd044cad16080ece208873d8433cba780293c2c2786c16b04ac38e0d208e6d",
+        "signature_status": "Trusted",
+        "size": 274432
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Smb_driver_Intel.sys",
+        "sha256": "4149e7db6ddaf447cace9f4099606dc38023bdbbdf634ab0d5833b2c2760a35e",
+        "signature_status": "Trusted",
+        "size": 56840
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\smclib.sys",
+        "sha256": "72b3481e9ac9cdcb7fb34d7a6727359e778013230cd2cb9e81b50db5c70befc1",
+        "signature_status": "Trusted",
+        "size": 65536
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\spacedump.sys",
+        "sha256": "3708df99dbe7af9242fcdd02d0835aa284c773f1cf58960e53e23c2edcdce53e",
+        "signature_status": "Trusted",
+        "size": 304528
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\spaceparser.sys",
+        "sha256": "8636c04ee171a843f07996205e544bcdaefd364fd67812c812424829ceb00aa0",
+        "signature_status": "Trusted",
+        "size": 86016
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\spaceport.sys",
+        "sha256": "dc784e121bd9afa9cb3d921015576cb2e0be295f418d23ed9df2166538a4ee4a",
+        "signature_status": "Trusted",
+        "size": 1021312
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\SpbCx.sys",
+        "sha256": "35b34fb16377da4c7875a5293024569ede40577458dc303231059ab7b5b6cde1",
+        "signature_status": "Trusted",
+        "size": 128424
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\srv2.sys",
+        "sha256": "fdbcb5b9416a23ec3d0b2e80cd8b30349c30f9a4f11d254e818e97776f2b62c4",
+        "signature_status": "Trusted",
+        "size": 1007616
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\srvnet.sys",
+        "sha256": "bfe7c91534de7e905c89db3f0c7d752246881a9106cf5b951f3456b9628e1f00",
+        "signature_status": "Trusted",
+        "size": 401408
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssadbus.sys",
+        "sha256": "9c8c65ac69ba5c9885cf2a4bd72b869754948377aa3fed2680e7bf8c5639f2a2",
+        "signature_status": "Trusted",
+        "size": 169288
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssadcm.sys",
+        "sha256": "7f949981042fddb014ef0912dfb0b6c95c117a6d97fb2c89bf1aeac2835a56d9",
+        "signature_status": "Trusted",
+        "size": 17224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssadcmnt.sys",
+        "sha256": "7f949981042fddb014ef0912dfb0b6c95c117a6d97fb2c89bf1aeac2835a56d9",
+        "signature_status": "Trusted",
+        "size": 17224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssadserd.sys",
+        "sha256": "23615e776d6a8c406c7ddf0e694ed3b5a2d30913afd3c0f86a788c5004299845",
+        "signature_status": "Trusted",
+        "size": 158024
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssadwh.sys",
+        "sha256": "fe3d8d839a7ccd4c4b11a7319751fbec74dac218d323b7c620dd2956ecb05d99",
+        "signature_status": "Trusted",
+        "size": 17736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssadwhnt.sys",
+        "sha256": "fe3d8d839a7ccd4c4b11a7319751fbec74dac218d323b7c620dd2956ecb05d99",
+        "signature_status": "Trusted",
+        "size": 17736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssaebus.sys",
+        "sha256": "35cae87f3c1b71bf88b207fd7551039ed617f492ab6b7166ef78b884629dac72",
+        "signature_status": "Trusted",
+        "size": 136264
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssaecr.sys",
+        "sha256": "996beb885abe6a8f535863b08f70fb0c8ac54d6ecb993960ef6a634225443869",
+        "signature_status": "Trusted",
+        "size": 14920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssaeunic.sys",
+        "sha256": "b72e509a7112c28000e3af09f269c367201a85c1ab4ab30c108fdd771d3387e6",
+        "signature_status": "Trusted",
+        "size": 178760
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssaewh.sys",
+        "sha256": "08cb70e16d4641a7be4d9e8da6f0684172cb3a5fbfd7d4a7747a6abd615df1bd",
+        "signature_status": "Trusted",
+        "size": 15944
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssaewhnt.sys",
+        "sha256": "08cb70e16d4641a7be4d9e8da6f0684172cb3a5fbfd7d4a7747a6abd615df1bd",
+        "signature_status": "Trusted",
+        "size": 15944
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssbcbus.sys",
+        "sha256": "2313b69b5b2150fce6cb08127db542c11526e643c8417d8eec7ce993ef4b0e3d",
+        "signature_status": "Trusted",
+        "size": 108032
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssbcwh.sys",
+        "sha256": "54f908945858abf6ff033809bdcf449146e8738cf97a1281277db55ddd0f9071",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssbcwhnt.sys",
+        "sha256": "54f908945858abf6ff033809bdcf449146e8738cf97a1281277db55ddd0f9071",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscdbus.sys",
+        "sha256": "a9aef5d88dddce27a4640fe82ced92a4957c42f8e9eedfc52dc128a66e0b43ed",
+        "signature_status": "Trusted",
+        "size": 169288
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscdcm.sys",
+        "sha256": "fcd5fe4cc58c466feb9ce59a3dadaab69fbbc290a8cd07b254e44288e6967a0e",
+        "signature_status": "Trusted",
+        "size": 17224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscdcmnt.sys",
+        "sha256": "fcd5fe4cc58c466feb9ce59a3dadaab69fbbc290a8cd07b254e44288e6967a0e",
+        "signature_status": "Trusted",
+        "size": 17224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscdserd.sys",
+        "sha256": "78d6d9d5382f53579760a7e8e0e9df0fca2156c7e480faf4c349e7e4a0c18504",
+        "signature_status": "Trusted",
+        "size": 158024
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscdwh.sys",
+        "sha256": "1ddd05a53fd4cb50df0cc5a92616be72334a1470f3210bf88800783f58b77b94",
+        "signature_status": "Trusted",
+        "size": 17736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscdwhnt.sys",
+        "sha256": "1ddd05a53fd4cb50df0cc5a92616be72334a1470f3210bf88800783f58b77b94",
+        "signature_status": "Trusted",
+        "size": 17736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscebus.sys",
+        "sha256": "36d66a3b128d27b31fd2dee82aebf6305c927ecba63074ec3c15a7edb5bd2191",
+        "signature_status": "Trusted",
+        "size": 169288
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscecm.sys",
+        "sha256": "88d1638974cc60640ec8ef84d7e78a49a270e63068686c95ad4777393a16bd77",
+        "signature_status": "Trusted",
+        "size": 17224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscecmnt.sys",
+        "sha256": "88d1638974cc60640ec8ef84d7e78a49a270e63068686c95ad4777393a16bd77",
+        "signature_status": "Trusted",
+        "size": 17224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssceserd.sys",
+        "sha256": "97616466732666cb1c8dcd0ed2a79e1bd4557038191a0c48293eae4047b46b9b",
+        "signature_status": "Trusted",
+        "size": 158024
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscewh.sys",
+        "sha256": "820a1eef06f529af2e65abb66b04ce6e6686801ccc9089fd32c40f55ec116c54",
+        "signature_status": "Trusted",
+        "size": 17736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sscewhnt.sys",
+        "sha256": "820a1eef06f529af2e65abb66b04ce6e6686801ccc9089fd32c40f55ec116c54",
+        "signature_status": "Trusted",
+        "size": 17736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssecbus.sys",
+        "sha256": "81c35539725295e15b864d429c3acada35c597fbe861be2b4cfcf3b416745e91",
+        "signature_status": "Trusted",
+        "size": 113664
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sseccm.sys",
+        "sha256": "360c2c00da3a663a10be9f74bfe0c233f95534768286235b315e149c5d867763",
+        "signature_status": "Trusted",
+        "size": 14848
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sseccmnt.sys",
+        "sha256": "360c2c00da3a663a10be9f74bfe0c233f95534768286235b315e149c5d867763",
+        "signature_status": "Trusted",
+        "size": 14848
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sseccr.sys",
+        "sha256": "27e37b1d2a83a69e445f173d5a4a653718279a58a648f02be6a23b3125630ef9",
+        "signature_status": "Trusted",
+        "size": 13312
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssecmgmt.sys",
+        "sha256": "3b02b892da074d1b290a5d47c39c482a1467af3088154e34f1da4f9450249cf3",
+        "signature_status": "Trusted",
+        "size": 132096
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssecobex.sys",
+        "sha256": "5e863f3ffab6584a7f0c4fd9fbbc30ded29fa71b86c5c28b535f2992e5477c33",
+        "signature_status": "Trusted",
+        "size": 127488
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssecunic.sys",
+        "sha256": "a6e79c0a9fa5e6b244564fefc3dbb2f83428c0e27bc76c0de30eb08eb604442e",
+        "signature_status": "Trusted",
+        "size": 145408
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssecwh.sys",
+        "sha256": "02d9abb65d8d947eadd2008a5cb52a2c8389b0ebb09e417317c570fee51acfa4",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssecwhnt.sys",
+        "sha256": "02d9abb65d8d947eadd2008a5cb52a2c8389b0ebb09e417317c570fee51acfa4",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssm_bus.sys",
+        "sha256": "89cb6756e71e5f11e58ca42d08bf3d011618d4cffa6335ba3eab8b7dc441bfb8",
+        "signature_status": "Trusted",
+        "size": 136192
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssm_cm.sys",
+        "sha256": "f8e0289fbf1c3a590682cdd118fd15f2ebfc946f8c33788c189abac450257040",
+        "signature_status": "Trusted",
+        "size": 15360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssm_cmnt.sys",
+        "sha256": "f8e0289fbf1c3a590682cdd118fd15f2ebfc946f8c33788c189abac450257040",
+        "signature_status": "Trusted",
+        "size": 15360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssm_mdm.sys",
+        "sha256": "4896dbc4b53d9cfa93e9a3a46bbc327a795a83844ca404520ef9f95d0a87802f",
+        "signature_status": "Trusted",
+        "size": 172032
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssm_wh.sys",
+        "sha256": "6dbad90946aeda3640af912a4998b08356ad951f3702b20e31f0ee848c685539",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ssm_whnt.sys",
+        "sha256": "6dbad90946aeda3640af912a4998b08356ad951f3702b20e31f0ee848c685539",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sssdbus.sys",
+        "sha256": "7e610667b8539a31bb9f3b7cb90bfa8f2ff68c635c8c290f85082b1bbb04d50b",
+        "signature_status": "Trusted",
+        "size": 129352
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sssdcm.sys",
+        "sha256": "24db56f19f84de982f8a4540ef1f57a815af5541af7c681a838ac9430a6ce19c",
+        "signature_status": "Trusted",
+        "size": 17224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sssdcmnt.sys",
+        "sha256": "24db56f19f84de982f8a4540ef1f57a815af5541af7c681a838ac9430a6ce19c",
+        "signature_status": "Trusted",
+        "size": 17224
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sssdmgmt.sys",
+        "sha256": "491df74ccbc9e5f449abc37617695e3cca786bf9bb8d17e36162dc4a0f58f073",
+        "signature_status": "Trusted",
+        "size": 142664
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sssdobex.sys",
+        "sha256": "a6601b41d06dea248289a436bc48766748e4c74699f5bfb1b1fc816297c3db40",
+        "signature_status": "Trusted",
+        "size": 138056
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sssdwh.sys",
+        "sha256": "47e9a90f22856ef06185c531bd0f19c66c56a37760025c4e434fa341de43f640",
+        "signature_status": "Trusted",
+        "size": 17736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\sssdwhnt.sys",
+        "sha256": "47e9a90f22856ef06185c531bd0f19c66c56a37760025c4e434fa341de43f640",
+        "signature_status": "Trusted",
+        "size": 17736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\SSUSBDownload.sys",
+        "sha256": "b8e4de12a8e6844b2e68061209c9cca910f14a26fc0bfa1ca20e3ebef7e47be3",
+        "signature_status": "Trusted",
+        "size": 23040
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ss_bbus.sys",
+        "sha256": "6ef229a7b7aff0268cdf47b77f961bd44335c3b35499bb00cba494a22b2ba39e",
+        "signature_status": "Trusted",
+        "size": 127488
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ss_bcm.sys",
+        "sha256": "b5191b73ac70b44cfef22c650fd055b53e72052d051dec789609c131170a9e66",
+        "signature_status": "Trusted",
+        "size": 15360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ss_bcmnt.sys",
+        "sha256": "b5191b73ac70b44cfef22c650fd055b53e72052d051dec789609c131170a9e66",
+        "signature_status": "Trusted",
+        "size": 15360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ss_bserd.sys",
+        "sha256": "2ed5125a93af824ca4d394a36f79996f9ebc84305f565f6024ecdd490a4a1fe2",
+        "signature_status": "Trusted",
+        "size": 128000
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ss_bus.sys",
+        "sha256": "8cfd9cd93d3b30d21ae1f25d8f0d78ec2876d85bf622d638bbd3809a3373baff",
+        "signature_status": "Trusted",
+        "size": 127488
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ss_bwh.sys",
+        "sha256": "b3ed51416036b36f355afd402e4d6e13161351f381fbeebd0d8ce73991cdc664",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ss_bwhnt.sys",
+        "sha256": "b3ed51416036b36f355afd402e4d6e13161351f381fbeebd0d8ce73991cdc664",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ss_wh.sys",
+        "sha256": "34cd00d6d1cf93d519613fc4c600c4aa2dc3fa9fef966466b843f04f0e77f47e",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ss_whnt.sys",
+        "sha256": "34cd00d6d1cf93d519613fc4c600c4aa2dc3fa9fef966466b843f04f0e77f47e",
+        "signature_status": "Trusted",
+        "size": 15872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\SteamStreamingMicrophone.sys",
+        "sha256": "0ec2de32da3afbc63ea84e76d1f0322382c273b3162885c7254f3960802b3b5e",
+        "signature_status": "Trusted",
+        "size": 40736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\SteamStreamingSpeakers.sys",
+        "sha256": "ee1ee0d1346328da18d70988f01bd961437e95be5ab82059a28cbcc7d4b23239",
+        "signature_status": "Trusted",
+        "size": 40736
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\stexstor.sys",
+        "sha256": "341cd0f3bdaf580ebe35a2e3ebbdcf94e46b85901a2effcdcdba3d3897a44937",
+        "signature_status": "Trusted",
+        "size": 32176
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\storahci.sys",
+        "sha256": "dd71d899eaa602e80c81062104890220975b6cc0b37d744787a21564c081c58a",
+        "signature_status": "Trusted",
+        "size": 234920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\stornvme.sys",
+        "sha256": "057a1c17af3f4908ee7ee5edabb87134db2f918d010d57ef72a05ef65236939b",
+        "signature_status": "Trusted",
+        "size": 325008
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\storport.sys",
+        "sha256": "31bdd8e272072a1bd0ab5696179794b6094d5b526ea8323e7f708074db28cc3c",
+        "signature_status": "Trusted",
+        "size": 2536856
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\storqosflt.sys",
+        "sha256": "659f5a1a030ad322d40ee6d4d35b1a2bc03a84761fe20bdbd2307dccdf71329c",
+        "signature_status": "Trusted",
+        "size": 120240
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\storufs.sys",
+        "sha256": "f14d202b529661d67cc988316e7e9e08e3ec6df40fec0c06967b66569cefce6f",
+        "signature_status": "Trusted",
+        "size": 148880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\storvsc.sys",
+        "sha256": "2b05b3d69d30dc2d75e81520512fe8af6a0856d2a017b6fe2fc8ea14e3305e37",
+        "signature_status": "Trusted",
+        "size": 91552
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\storvsp.sys",
+        "sha256": "3aa662092d9cf2c29a9b48f1875e8cfa6c3e2d3410a5624da4c9ce3a91aa5c64",
+        "signature_status": "Trusted",
+        "size": 308632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\stream.sys",
+        "sha256": "c162f0dc9eeca81d13243747a35196f7f8f0dc1c316e9b88af8a0f6cd5eee6fa",
+        "signature_status": "Trusted",
+        "size": 118784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tap0901.sys",
+        "sha256": "89c5ca1440df186497ce158eb71c0c6bf570a75b6bc1880eac7c87a0250201c0",
+        "signature_status": "Trusted",
+        "size": 27136
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tape.sys",
+        "sha256": "ec1dcaf229303a76171764c55208c98cb3e5147a275ac75814a08765089b6576",
+        "signature_status": "Trusted",
+        "size": 69632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tbs.sys",
+        "sha256": "c32f8f45334e46691e8c4918919bb0c3c169a70388ae9a2e4da0ca5e01a5a2bd",
+        "signature_status": "Trusted",
+        "size": 79272
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tcpip.sys",
+        "sha256": "4f0f597b19e14316157468789841b6ca819e7e7050b75edea1d6ffe0fcb24fac",
+        "signature_status": "Trusted",
+        "size": 3499408
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tcpipreg.sys",
+        "sha256": "4599424a98d300ea9e0e4730fbee95654ba4b016cc60284d9ebdd4d5e8b8a2a1",
+        "signature_status": "Trusted",
+        "size": 86016
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tdi.sys",
+        "sha256": "8e39ee12a6b6edf017d48e2939cdc50d2aa60349e2161bedec8b8fb3d7a3bae4",
+        "signature_status": "Trusted",
+        "size": 87464
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tdx.sys",
+        "sha256": "01bbe4d8f381c62f2f6bd65ce85ce97a32e7811a1592dad254bca85b8a84e82e",
+        "signature_status": "Trusted",
+        "size": 185728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\terminpt.sys",
+        "sha256": "ccf0698bb05d64ed135aa932e02d671256557a331fdbe3cf744f8a8fb5abbc86",
+        "signature_status": "Trusted",
+        "size": 75184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tm.sys",
+        "sha256": "a9b771a25e218a491641479ab8a6491fef837dd46e3b01fbd6112cbc1ca98037",
+        "signature_status": "Trusted",
+        "size": 181656
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tpm.sys",
+        "sha256": "aabd5d36807b830d806226c13a7aebf8024c1c35e4bdb5c9950f0541a774981d",
+        "signature_status": "Trusted",
+        "size": 374160
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\TsUsbFlt.sys",
+        "sha256": "2e2440298d10945d07f428e792bb53b7c1599a4d77da195cab64eff7ae80a067",
+        "signature_status": "Trusted",
+        "size": 98304
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\TsUsbGD.sys",
+        "sha256": "13743297920215a27cb2cd0e9b4ab6db79ca9577bdc6f3f481be629ad1df66f5",
+        "signature_status": "Trusted",
+        "size": 69632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tsusbhub.sys",
+        "sha256": "8b3deed08a03b51386d0e168ca11e1b7384ea0d7fc1ff1222eeee83eba3e8e5d",
+        "signature_status": "Trusted",
+        "size": 163840
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\tunnel.sys",
+        "sha256": "046a0a707dabe443ee5c9198c9a5bf4045870c75c71fbb9a33cec72d6a6bc1da",
+        "signature_status": "Trusted",
+        "size": 167936
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\uaspstor.sys",
+        "sha256": "9bc3233ff967c581f7c3ea186075b3b0d34f3e52295430987d132397f75f0854",
+        "signature_status": "Trusted",
+        "size": 120248
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\UcmCx.sys",
+        "sha256": "572fbe0a33227dcc339329eeafb72d9f98bb7b5d21f8fd8b6df7a15b6dfa1b79",
+        "signature_status": "Trusted",
+        "size": 221184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\UcmTcpciCx.sys",
+        "sha256": "4c614826c7e76e3527af3004ea9eab8e6e0cf86c0859e992f092eded4904e22b",
+        "signature_status": "Trusted",
+        "size": 217088
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\UcmUcsiAcpiClient.sys",
+        "sha256": "481b61f192d9c108445c6e4a9c6f2261724cb0f6766651dd174b3e030fab8eb1",
+        "signature_status": "Trusted",
+        "size": 77824
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\UcmUcsiCx.sys",
+        "sha256": "ff6e7a2c87996027a0f9bdb0b422db1057be2889dd72f09a6507eec798ad4aa6",
+        "signature_status": "Trusted",
+        "size": 196608
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\UCPD.sys",
+        "sha256": "053eb4642559f5d71d90625191f4f1347b310517b9f4d57045a0772776e40b5d",
+        "signature_status": "Trusted",
+        "size": 173480
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Ucx01000.sys",
+        "sha256": "d320645565dd17f14e9038de24b60ce159404a5c3d87d9805f79ecc6a2529d80",
+        "signature_status": "Trusted",
+        "size": 308624
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Udecx.sys",
+        "sha256": "378aa93e8f2b35f948b5e908534e08a7888667f10c1f5ed973cc2ab191913f54",
+        "signature_status": "Trusted",
+        "size": 90112
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\udfs.sys",
+        "sha256": "98164a0f708c3898dc06519d11f1f3a0702bf0d3633f9a02700b62bd46e362bf",
+        "signature_status": "Trusted",
+        "size": 401408
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\UevAgentDriver.sys",
+        "sha256": "103f8d5c5b057c4007ae8d91b314b8c758b91c08df6404b037747cd9efd8a73b",
+        "signature_status": "Trusted",
+        "size": 75168
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ufx01000.sys",
+        "sha256": "78ed801f832e1a3d6309665db93c06434f89a24319311a9b632158be4e16cec3",
+        "signature_status": "Trusted",
+        "size": 361776
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ufxsynopsys.sys",
+        "sha256": "4b8938777b92f4f1b3199def96f03e710cc22d8a2720297f3f1b53a696d3347f",
+        "signature_status": "Trusted",
+        "size": 198064
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\UnionFS.sys",
+        "sha256": "7ef36fe0d0fb0daa93316ee171fd5d81b0af8d039080148ddfdfd71152e1e7fc",
+        "signature_status": "Trusted",
+        "size": 496944
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\urscx01000.sys",
+        "sha256": "970493f008d072fbb6141224c6986e19a272e40b5106c9ddc14a2d3dffabb58d",
+        "signature_status": "Trusted",
+        "size": 112032
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usb8023.sys",
+        "sha256": "b094f69fca478f57ff56883787316d31679ddd080e7b783542f3e5af3b5be7bc",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\USBAUDIO.sys",
+        "sha256": "9daef6b4d1dd01b9ac55d6a5ddc1dad686a2a120fe869e22861a1f913b466286",
+        "signature_status": "Trusted",
+        "size": 294912
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbaudio2.sys",
+        "sha256": "9748f72db2a84bbb8249ba215cde4b7f0e4453079fc42de7220e53f585fca24c",
+        "signature_status": "Trusted",
+        "size": 401408
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\USBCAMD2.sys",
+        "sha256": "e5cd6fbcb9a8fab3cebbe70372322204eea189426d934167e8967b769b70c524",
+        "signature_status": "Trusted",
+        "size": 81920
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbccgp.sys",
+        "sha256": "a8371306d904ec99af75aaa400e6cd2d0cb528e5bb68dfdbd399192eddcc6d90",
+        "signature_status": "Trusted",
+        "size": 222632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbcir.sys",
+        "sha256": "bf667a635e51d3acd2ffe78ffb33c1aaf62b60f58484b53647ae0a27bbc60a98",
+        "signature_status": "Trusted",
+        "size": 147456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbd.sys",
+        "sha256": "5919da646f4c0c78db4a32065c1258d9c691ac8b6e54db99c7f3e090809aee4d",
+        "signature_status": "Trusted",
+        "size": 75152
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbehci.sys",
+        "sha256": "37293faec8ba5638d6bc842a2fa0ce24452e45fadac17ca1407bed8b34226cdc",
+        "signature_status": "Trusted",
+        "size": 128384
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbhub.sys",
+        "sha256": "c4b762f4288e5e16d0d881fbbd101704f3fd723fed54fd2641ce8bc28773725d",
+        "signature_status": "Trusted",
+        "size": 570776
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbohci.sys",
+        "sha256": "f083d76ef2d5d109314c51a4996110d4b288bb3f5015b5958445d6fd1e07cc83",
+        "signature_status": "Trusted",
+        "size": 69632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\UsbPmApi.sys",
+        "sha256": "c2a12e77f7a7b58e5e0497a304654431821feeb46c0985776ae51413cc7a01a7",
+        "signature_status": "Trusted",
+        "size": 94208
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbport.sys",
+        "sha256": "dc7644e901fffcd8250ed594e9cc474579e85a54262d90240cad22de13d5dfdf",
+        "signature_status": "Trusted",
+        "size": 509352
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbprint.sys",
+        "sha256": "233aba48887730ffd9431e42ba352955bcbfb7e9957ea02a46b568dad13223c7",
+        "signature_status": "Trusted",
+        "size": 110592
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbser.sys",
+        "sha256": "c997415a96998774b2d006f6bd69dd6e41a71fc15c1f6e79e8e3657a35ee8ccf",
+        "signature_status": "Trusted",
+        "size": 126976
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbser_lowerfltsax64j.sys",
+        "sha256": "e6c0780714bc7dc02361c2c356cbaf12f7ac62c52908eedc6d16f598e217908e",
+        "signature_status": "Trusted",
+        "size": 9216
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\usbuhci.sys",
+        "sha256": "909c483e0877ac45bad15790625ce8374c75a26713273633f3821b0d3b6a05f3",
+        "signature_status": "Trusted",
+        "size": 73728
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\uvhid.sys",
+        "sha256": "99e53eb9e063059adef010c2799788b60da91c743b937d110a4283394963011c",
+        "signature_status": "Trusted",
+        "size": 29720
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\VBoxNetAdp6.sys",
+        "sha256": "3513b3902150ba67ba9a8bc25203e572f785a25d9a70bd6b384e3b5b7ad8d87a",
+        "signature_status": "Trusted",
+        "size": 254336
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\VBoxNetLwf.sys",
+        "sha256": "c7e49444f83849ca1c67444ab1339e0fe355dc68cdfd3e1688006d9a46c01c56",
+        "signature_status": "Trusted",
+        "size": 265232
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\VBoxSup.sys",
+        "sha256": "30ec978da9660b5b97b7c5f3da8f8b7e0fbd0d71233bf9db2a97942f1cb4da5a",
+        "signature_status": "Trusted",
+        "size": 1064240
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\VBoxUSB.sys",
+        "sha256": "7eb8952d0ecff00298289971dd7466dd68e6fa0f8c013ac44534dcc287c53d85",
+        "signature_status": "Trusted",
+        "size": 188888
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\VBoxUSBMon.sys",
+        "sha256": "c7b70d26de2badde1b2733e30041b41dc88a23f85b7f38fbce44f748787803c1",
+        "signature_status": "Trusted",
+        "size": 203888
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vdrvroot.sys",
+        "sha256": "0029fa9fe4f3055244d25646bf833705b937a7553430c50d055f643e993bdb6d",
+        "signature_status": "Trusted",
+        "size": 124216
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\VerifierExt.sys",
+        "sha256": "7f1941849420735b15954b1ca3c447907226786cf14b6c1d193e21fdff8fd290",
+        "signature_status": "Trusted",
+        "size": 279976
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vfpext.sys",
+        "sha256": "825d9b022fb6d17074f6283341fce2d62dde35c79f7cb68e224a2c50cb3e45e3",
+        "signature_status": "Trusted",
+        "size": 1671168
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vhdmp.sys",
+        "sha256": "f000cfa757efa65a51dd80c847b7718336305cfd996aadc2a41fc243f432f1b3",
+        "signature_status": "Trusted",
+        "size": 1058216
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vhdparser.sys",
+        "sha256": "5e112d77fcf78c4f3c570858bea58435dee09b05a885d12eef539455ab559854",
+        "signature_status": "Trusted",
+        "size": 83360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vhf.sys",
+        "sha256": "0202dfa6d246f9c6d4b636843a2877c0f0bd9ca073c27819d941b39c083bfd76",
+        "signature_status": "Trusted",
+        "size": 90112
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Vid.sys",
+        "sha256": "3d0d59eb5f7b213bff41971eafbd290bff237776d64c99993810f9ce79abd38f",
+        "signature_status": "Trusted",
+        "size": 914832
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\videoprt.sys",
+        "sha256": "2217306412f130c668883152957ccfd7e708035b77e478c54cd273de154c21b3",
+        "signature_status": "Trusted",
+        "size": 90112
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmbkmcl.sys",
+        "sha256": "aa82af2e99d2cab65bd6c38110143109caafeab8768477a4cb3304bd8ba60d02",
+        "signature_status": "Trusted",
+        "size": 169360
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmbkmclr.sys",
+        "sha256": "0813923f61e48414df2cf85742ae8aeb351e6f5f7b32e38c8028d70edc3911ab",
+        "signature_status": "Trusted",
+        "size": 218496
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmbus.sys",
+        "sha256": "2212ba88f1d72c7ef6dcff33047c73f21e5b3de4cb7da967a1608d9c7f059653",
+        "signature_status": "Trusted",
+        "size": 210320
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\VMBusHID.sys",
+        "sha256": "67380e2dc050c74b04f48238c11cf7a57e9dab2c89ca9df66117d57b69eaaf29",
+        "signature_status": "Trusted",
+        "size": 71072
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmbusproxy.sys",
+        "sha256": "ebce4b35db4ffac4f015e615f4be9f12057a2ebf9701fa480666c2d67139ed88",
+        "signature_status": "Trusted",
+        "size": 98304
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmbusr.sys",
+        "sha256": "385c9d13ee95bea8c3ad8cc7de63d8fe2f15b1e20a8b1561804e6adb847e1a80",
+        "signature_status": "Trusted",
+        "size": 320912
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmgencounter.sys",
+        "sha256": "bfd17e40b498aa842d59fd38e0ff128416cc6cf0af9cb2eb7637c5e265180258",
+        "signature_status": "Trusted",
+        "size": 58672
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmgid.sys",
+        "sha256": "2066f124e18b277595ca72bc205ceff7f42e4cc226b5ddad29933fba20dafe7e",
+        "signature_status": "Trusted",
+        "size": 58784
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vms3cap.sys",
+        "sha256": "8f7a702e1e703ecaca3d95fd21202d5b09d43eb1aeeb9676cba58127d36395d9",
+        "signature_status": "Trusted",
+        "size": 58800
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\VmsProxy.sys",
+        "sha256": "c38845f34507d8d1429c52f1b47414614cd078693bc768e2e4ee922ca13d8a1b",
+        "signature_status": "Trusted",
+        "size": 70976
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\VmsProxyHNic.sys",
+        "sha256": "010064d2013e5f3956f6bf8beeb72afa94fa90dde87b534fadd2dd83684a89ff",
+        "signature_status": "Trusted",
+        "size": 75184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmstorfl.sys",
+        "sha256": "76e08a81aeaab356bb3f1fc2215847f0f5b8df2ea3ed0e530373affd7f7bd6b3",
+        "signature_status": "Trusted",
+        "size": 87472
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmsvcext.sys",
+        "sha256": "9a38b87a027b4d71ef206b526f0afaee23a0b6680f56b4c62784b3f5024f6427",
+        "signature_status": "Trusted",
+        "size": 50616
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vmswitch.sys",
+        "sha256": "0273d69d7ceeefaed3653d0abe4e0251ad15dd3ad10a9178a063c585f44b858c",
+        "signature_status": "Trusted",
+        "size": 2561432
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\volmgr.sys",
+        "sha256": "ae7a8fdf0f14645541254ac3b831d2dde8dc6c0f7ce3ffa04b85bc12e6d9e6d4",
+        "signature_status": "Trusted",
+        "size": 132520
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\volmgrx.sys",
+        "sha256": "7c0d3f68af9297c167d64c53a31f6dd3dfd01861cdd3fafd6e545ff1bd3eceaa",
+        "signature_status": "Trusted",
+        "size": 419120
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\volsnap.sys",
+        "sha256": "28ad22b5f75cb3a1044a2778fd986a29117526c289d0da6d66e07fec763da50d",
+        "signature_status": "Trusted",
+        "size": 529808
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\volume.sys",
+        "sha256": "1f2111f0a528ed598b727bfa8be52b8f8cecf3fc0c3b4ef41761c3c97c599b29",
+        "signature_status": "Trusted",
+        "size": 54576
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vpci.sys",
+        "sha256": "7b51b3254ed7a6f6830efddb2a4a5d465413c77bb3d5059bf1c9549940f26df1",
+        "signature_status": "Trusted",
+        "size": 161168
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vpcivsp.sys",
+        "sha256": "63fc48e699cb81aa213cc4dce233af80214b3007ce1eb01bb37b13db3cc6645e",
+        "signature_status": "Trusted",
+        "size": 255416
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vsmraid.sys",
+        "sha256": "2e0f359b2b2f2d73d8b576cd2ecfca82a2cea642fd7e0266f6175a6ec912ce0a",
+        "signature_status": "Trusted",
+        "size": 167840
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vwififlt.sys",
+        "sha256": "caa2e052c8c005971324d53f88af9c70e9bfd4571f3fd267e93d2fe5d3a6b13e",
+        "signature_status": "Trusted",
+        "size": 122880
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\vwifikerneldrv.sys",
+        "sha256": "1970620c460e4c2cc81452c39f2d9b6a2cf134e9d81a73214258f798faeaa1fc",
+        "signature_status": "Trusted",
+        "size": 260
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wacompen.sys",
+        "sha256": "55c5747ecd53113af450aa0b5055a8d0962b6ab1ff8b5431630e60b27e025a36",
+        "signature_status": "Trusted",
+        "size": 65536
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wanarp.sys",
+        "sha256": "6807db26f7a2fd9f6229e76a84e8c044eeef4f13114ab08f9546f0798e4d8ce8",
+        "signature_status": "Trusted",
+        "size": 126976
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\watchdog.sys",
+        "sha256": "8fce50f4c9467831cc1552e703ebfb7ef9951c4c669df451f8812d5716be91e3",
+        "signature_status": "Trusted",
+        "size": 140688
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wcifs.sys",
+        "sha256": "870944774d97a1b02a0758a2eea8f15c51fa3bd5c579f49186fc04252bea758b",
+        "signature_status": "Trusted",
+        "size": 255376
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wd\\KslD.sys",
+        "sha256": "48c463972b9d84e8c78cb66a5de8d89544a9e40e8a5cdb1e120ed39e8828fc6f",
+        "signature_status": "Trusted",
+        "size": 332184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wd\\WdBoot.sys",
+        "sha256": "eff9bd2489c7fe67846e8b2ce54bfe031d7d57ae7e614eb7f4ffb8f6c09a754b",
+        "signature_status": "Trusted",
+        "size": 20888
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wd\\WdDevFlt.sys",
+        "sha256": "27242c35b3b0130a1e0d43798ee47a7969f6fb7088d8c0d061dd6d6f41b3ab9d",
+        "signature_status": "Trusted",
+        "size": 275872
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wd\\WdFilter.sys",
+        "sha256": "f5323c49a4d6b87139e3b04847b94de84c61740282a9c42b8352ecb93815213f",
+        "signature_status": "Trusted",
+        "size": 627120
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wd\\WdNisDrv.sys",
+        "sha256": "194cd2b71e083fbea5a49c95307c83641fb912eeb575abbb2b7c050e8aa81f30",
+        "signature_status": "Trusted",
+        "size": 101792
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WdBoot.sys",
+        "sha256": "cbd2a1d7a4788ee71bbe28fd521575886ed8d290fa4adebba2db25d5ef4d4a0b",
+        "signature_status": "Trusted",
+        "size": 55856
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WdDevFlt.sys",
+        "sha256": "fb6ab3da3614c75fb7055cc5573ef7fe3ceeb1c0c0aa6070a9ef070bcefdd651",
+        "signature_status": "Trusted",
+        "size": 249216
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\Wdf01000.sys",
+        "sha256": "c11574a5a822c96957c24ed6a32cb312a95bce71504d5ec8b78bdde669ed978e",
+        "signature_status": "Trusted",
+        "size": 988584
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WdFilter.sys",
+        "sha256": "7cce08e9711a57e86ec4a3f0ddf09394e77933a2900ffd2c41585127c5724803",
+        "signature_status": "Trusted",
+        "size": 594304
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WdfLdr.sys",
+        "sha256": "f3295ce26eead3e9fe8c3df4679fc464d5fe39534fb87cb9b99f697843af36c0",
+        "signature_status": "Trusted",
+        "size": 103864
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WdiWiFi.sys",
+        "sha256": "82c8f661adfb1181a1bab2f1d5e96b911c959345073fcda2f388a1527bee0ef2",
+        "signature_status": "Trusted",
+        "size": 1126400
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WdmCompanionFilter.sys",
+        "sha256": "863bbdfe586c5bb16c83391de52d4c84987fcce8e53b20617c04dc9042749e1d",
+        "signature_status": "Trusted",
+        "size": 62904
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WdNisDrv.sys",
+        "sha256": "613a2e972c5c545839e95f81525999975489deb9f9447ee1d1c9ec0cea493e30",
+        "signature_status": "Trusted",
+        "size": 105856
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\werkernel.sys",
+        "sha256": "40020e4f891937fcfe601d72988cef5fa3cf232e50a2783ebada074f54f40349",
+        "signature_status": "Trusted",
+        "size": 99632
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wfplwfs.sys",
+        "sha256": "0dfdbc019fd49f160b849d6d5f39e7a3d2126faffe4fe14d42f6761b0013d214",
+        "signature_status": "Trusted",
+        "size": 247208
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WifiCx.sys",
+        "sha256": "5fb5aaf3d12bcd57a5d7b117ac4c002e9c68bbb31e8b47bf0bb285dfa481eb89",
+        "signature_status": "Trusted",
+        "size": 1171456
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wimmount.sys",
+        "sha256": "c0b1f31f281cf5b5d0fb75e4ad232354898c39a9eb41cddcd449078bae1b2f61",
+        "signature_status": "Trusted",
+        "size": 75192
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WinAccel.sys",
+        "sha256": "0534b9038f46ba8fb87536c0872ae150fd359bbfdc11a7f353ea8e1eba9b08cf",
+        "signature_status": "Trusted",
+        "size": 95536
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WinAccelCx.sys",
+        "sha256": "e2c6a6dc14bbc3d23940efc6f8432d7c3cf1dd88825d2ee93ceea7ef8a91c8e0",
+        "signature_status": "Trusted",
+        "size": 144704
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WindowsTrustedRT.sys",
+        "sha256": "bcafbed77c375d0eec6df4a6ecf807e2b82036e11260113c3bba11d43152813e",
+        "signature_status": "Trusted",
+        "size": 112200
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WindowsTrustedRTProxy.sys",
+        "sha256": "ba84eb9f3ab420fa2f5f04796774b67c8a1f3cd1d5958753c24fe19970597bf3",
+        "signature_status": "Trusted",
+        "size": 58968
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\winhv.sys",
+        "sha256": "7f7df05503ab48b6636359507caffa88206d2db07a906db04ce4570fc2023993",
+        "signature_status": "Trusted",
+        "size": 75136
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\winhvr.sys",
+        "sha256": "f374205eb554892df4dd459a051235b1ceb0421cff0f1d5f0401e2f3341555b0",
+        "signature_status": "Trusted",
+        "size": 152976
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\winmad.sys",
+        "sha256": "4be9617627adb71a2e5321d77ee54b6bf0ec97c8003753e8b733219a6cb43114",
+        "signature_status": "Trusted",
+        "size": 37184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\winnat.sys",
+        "sha256": "e0458f608a529251b31baaa60a91cc13f8b2d1e1f972a27d0db0bc50b0fdcfe2",
+        "signature_status": "Trusted",
+        "size": 315488
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\winusb.sys",
+        "sha256": "11a59886ac977ec4890ff984a20cb1cbf092b4e6f11e719d7cfd92c658472fcb",
+        "signature_status": "Trusted",
+        "size": 139264
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\winverbs.sys",
+        "sha256": "d9c3d761561dee8deed149352efebe9a71da6ae32f0d6170d019d88f64344778",
+        "signature_status": "Trusted",
+        "size": 74032
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wireguard.sys",
+        "sha256": "94def0c6290dbc32ebb9a6e72d2f76d0ffe66365606efeef952834768e47f1d8",
+        "signature_status": "Trusted",
+        "size": 489368
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wmiacpi.sys",
+        "sha256": "3a8540de14ed7f876de425fa0379790f01526a1df50c409a4e8bc3fc134f7177",
+        "signature_status": "Trusted",
+        "size": 57344
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wmilib.sys",
+        "sha256": "24ef49436964332ee7a8886510ce31e409305779cb4e8cc988642ae1d93b29d8",
+        "signature_status": "Trusted",
+        "size": 62792
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wof.sys",
+        "sha256": "fb1585c53cf9f7172c5379081d7946f19540fe0bbe16ee2dc3d99c8a5eb66d73",
+        "signature_status": "Trusted",
+        "size": 279936
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WpdUpFltr.sys",
+        "sha256": "45489df939804ffe56e9a833cbed357402795d7d0cbd6dfcda29645cd3df4300",
+        "signature_status": "Trusted",
+        "size": 71088
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WppRecorder.sys",
+        "sha256": "e8c35da54bead39f3d8348c224191f4dd05cc83e1c8b23ccd4549ba6dda7e18e",
+        "signature_status": "Trusted",
+        "size": 91544
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ws2ifsl.sys",
+        "sha256": "d203363831e61e0f6108f3cc94de2d6acedafbe58a9ce5e4b5f8be21dde970fc",
+        "signature_status": "Trusted",
+        "size": 61440
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\wtd.sys",
+        "sha256": "2b713cfdabffcf881d9b0175d7ff2f6806aae83495e629af63547ee981ff7efd",
+        "signature_status": "Trusted",
+        "size": 132528
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WUDFPf.sys",
+        "sha256": "07f7b161c5d1a6eacd8b5b649373255af1557455ebe324153151f20abaa22776",
+        "signature_status": "Trusted",
+        "size": 177552
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\WUDFRd.sys",
+        "sha256": "94e6bb21f2aada06bf17ce3491855db39c87fcb954fa4ad6a9961084221d35df",
+        "signature_status": "Trusted",
+        "size": 374184
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\xboxgip.sys",
+        "sha256": "46ede67de59fcc3f580648af7d8597862273f4f32dc8f14ca71a47439aabae52",
+        "signature_status": "Trusted",
+        "size": 417792
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\xinputhid.sys",
+        "sha256": "81a11392160762a85087707d578797ab4ba73b2190d3bd597537e6a37716bac8",
+        "signature_status": "Trusted",
+        "size": 98304
+      },
+      {
+        "created": "2025-08-21T12:00:00Z",
+        "modified": "2025-08-21T12:00:00Z",
+        "path": "C:\\Windows\\System32\\drivers\\ztdns.sys",
+        "sha256": "3ea01d724356807a67d72fa625592bf8ee08bbdab863a4912fac22046269b585",
+        "signature_status": "Trusted",
+        "size": 107944
+      }
+    ],
+    "network_connections": [],
+    "process_anomalies": [],
+    "processes": [],
+    "proxy_config": null,
+    "registry_entries": [],
+    "scheduled_tasks": [],
+    "services": [
+      {
+        "binary_path": "C:\\Windows\\System32\\spoolsv.exe",
+        "current_state": "Running",
+        "display_name": "Print Spooler",
+        "name": "Spooler",
+        "process_id": 1860,
+        "service_account": "LocalSystem",
+        "service_type": "Win32OwnProcess",
+        "signature_status": "Trusted",
+        "start_type": "Auto"
+      }
+    ],
+    "session_files": [
+      {
+        "application": "Discord",
+        "contains_tokens": false,
+        "data_size": 17049054,
+        "file_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\discord\\Local Storage\\leveldb",
+        "file_type": "leveldb",
+        "is_suspicious": false,
+        "last_accessed": "2025-08-21T12:00:00Z"
+      },
+      {
+        "application": "Telegram",
+        "contains_tokens": false,
+        "data_size": 506354114,
+        "file_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Telegram Desktop\\tdata",
+        "file_type": "tdata",
+        "is_suspicious": true,
+        "last_accessed": "2025-08-21T12:00:00Z"
+      },
+      {
+        "application": "Steam",
+        "contains_tokens": false,
+        "data_size": 0,
+        "file_path": "C:\\Program Files (x86)\\Steam\\config\\loginusers.vdf",
+        "file_type": "vdf",
+        "is_suspicious": true,
+        "last_accessed": "2025-08-21T12:00:00Z"
+      },
+      {
+        "application": "Thunderbird",
+        "contains_tokens": false,
+        "data_size": 56694328,
+        "file_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Roaming\\Thunderbird\\Profiles",
+        "file_type": "profile",
+        "is_suspicious": false,
+        "last_accessed": "2025-08-21T12:00:00Z"
+      },
+      {
+        "application": "Outlook",
+        "contains_tokens": false,
+        "data_size": 0,
+        "file_path": "C:\\Users\\gerga.DESKTOP-BSQOQP7\\AppData\\Local\\Microsoft\\Outlook",
+        "file_type": "ost",
+        "is_suspicious": false,
+        "last_accessed": "2025-08-21T12:00:00Z"
+      }
+    ],
+    "wallet_files": [],
+    "winsock_providers": [],
+    "wmi_bindings": [],
+    "wmi_consumers": [],
+    "wmi_filters": []
+  }
+}
