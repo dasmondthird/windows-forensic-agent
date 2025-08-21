@@ -204,7 +204,7 @@ pub enum Category {
     CryptoTheft,
 }
 
-#[derive(Debug, Default)]
+#[derive(Debug, Default, Serialize, Deserialize)]
 pub struct SystemArtifacts {
     pub services: Vec<ServiceInfo>,
     pub registry_entries: Vec<RegistryEntry>,

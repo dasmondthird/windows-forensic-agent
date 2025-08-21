@@ -87,21 +87,16 @@ fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
     
     // Collect WMI subscriptions
     match wmi_subs::collect() {
-        Ok((filters, consumers, bindings)) => {
+        Ok((filters, consumers)) => {
             artifacts.wmi_filters = filters;
             artifacts.wmi_consumers = consumers;
-            artifacts.wmi_bindings = bindings;
         }
         Err(e) => error!("WMI subscriptions collection failed: {}", e),
     }
     
     // Collect network information
     match network::collect() {
-        Ok((network_data, proxy_config, winsock_providers)) => {
-            artifacts.network_connections = network_data;
-            artifacts.proxy_config = proxy_config;
-            artifacts.winsock_providers = winsock_providers;
-        }
+        Ok(network_data) => artifacts.network_connections = network_data,
         Err(e) => error!("Network collection failed: {}", e),
     }
     
@@ -113,7 +108,7 @@ fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
     
     // Collect files
     match files::collect() {
-        Ok(files_data) => artifacts.file_artifacts = files_data,
+        Ok(files_data) => artifacts.interesting_files = files_data,
         Err(e) => error!("Files collection failed: {}", e),
     }
     
@@ -128,24 +123,24 @@ fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
     
     // Collect events
     match events::collect() {
-        Ok(events_data) => artifacts.windows_events = events_data,
+        Ok(events_data) => artifacts.security_events = events_data,
         Err(e) => error!("Events collection failed: {}", e),
     }
     
     // Collect browsers
     match browsers::collect() {
-        Ok((extensions, settings, downloads)) => {
-            artifacts.browser_extensions = extensions;
-            artifacts.browser_settings = settings;
+        Ok((history, credentials, downloads, addons)) => {
+            artifacts.browser_history = history;
+            artifacts.browser_credentials = credentials;
             artifacts.browser_downloads = downloads;
+            artifacts.browser_addons = addons;
         }
         Err(e) => error!("Browsers collection failed: {}", e),
     }
     
     // Collect crypto theft artifacts
     match crypto_theft::collect() {
-        Ok((theft_artifacts, wallet_files, session_files)) => {
-            artifacts.crypto_theft_artifacts = theft_artifacts;
+        Ok((wallet_files, session_files)) => {
             artifacts.wallet_files = wallet_files;
             artifacts.session_files = session_files;
         }
@@ -165,7 +160,7 @@ fn collect_snapshot(_args: &Args) -> Result<SystemArtifacts> {
         artifacts.services = services_data;
     }
     
-    if let Ok((network_data, _, _)) = network::collect() {
+    if let Ok(network_data) = network::collect() {
         artifacts.network_connections = network_data;
     }
     
