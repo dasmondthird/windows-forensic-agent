@@ -68,50 +68,27 @@ fn main() -> Result<()> {
 fn collect_artifacts(_args: &Args) -> Result<SystemArtifacts> {
     let mut artifacts = SystemArtifacts::default();
     
-    info!("Starting comprehensive forensic collection (WinAPI native)...");
+    info!("Starting comprehensive forensic collection...");
     
-    // Stage 1: Use WinAPI collectors for stealth
-    
-    // Collect services via WinAPI (no PowerShell)
-    match services_winapi::collect() {
+    // Collect services
+    match services::collect() {
         Ok(services_data) => artifacts.services = services_data,
-        Err(e) => {
-            error!("WinAPI services collection failed, falling back to PowerShell: {}", e);
-            match services::collect() {
-                Ok(services_data) => artifacts.services = services_data,
-                Err(e) => error!("Services collection failed completely: {}", e),
-            }
-        }
+        Err(e) => error!("Services collection failed: {}", e),
     }
     
-    // Collect registry via WinAPI (no PowerShell)
-    match registry_winapi::collect() {
+    // Collect registry
+    match registry::collect() {
         Ok(registry_data) => artifacts.registry_entries = registry_data,
-        Err(e) => {
-            error!("WinAPI registry collection failed, falling back to PowerShell: {}", e);
-            match registry::collect() {
-                Ok(registry_data) => artifacts.registry_entries = registry_data,
-                Err(e) => error!("Registry collection failed completely: {}", e),
-            }
-        }
+        Err(e) => error!("Registry collection failed: {}", e),
     }
     
-    // Collect processes via WinAPI (no PowerShell)
-    match processes_winapi::collect() {
+    // Collect processes
+    match processes::collect() {
         Ok((processes_data, anomalies_data)) => {
             artifacts.processes = processes_data;
             artifacts.process_anomalies = anomalies_data;
         }
-        Err(e) => {
-            error!("WinAPI processes collection failed, falling back to PowerShell: {}", e);
-            match processes::collect() {
-                Ok((processes_data, anomalies_data)) => {
-                    artifacts.processes = processes_data;
-                    artifacts.process_anomalies = anomalies_data;
-                }
-                Err(e) => error!("Processes collection failed completely: {}", e),
-            }
-        }
+        Err(e) => error!("Processes collection failed: {}", e),
     }
     
     // Continue with other collectors
@@ -221,8 +198,8 @@ fn collect_remaining_artifacts(artifacts: &mut SystemArtifacts) -> Result<()> {
         Err(e) => error!("Certificates collection failed: {}", e),
     }
     
-    // Collect files with enhanced signature verification
-    match files::collect() {
+    // Collect files with enhanced signature verification  
+    match collectors::files::collect() {
         Ok(files_data) => artifacts.file_artifacts = files_data,
         Err(e) => error!("Files collection failed: {}", e),
     }

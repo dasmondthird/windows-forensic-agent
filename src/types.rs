@@ -166,6 +166,7 @@ pub struct ProcessAnomaly {
 pub enum SignatureStatus {
     Trusted,
     Untrusted,
+    Unknown,
     Error(String),
 }
 

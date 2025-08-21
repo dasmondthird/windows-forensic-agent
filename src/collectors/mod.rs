@@ -1,9 +1,9 @@
 pub mod services;
-pub mod services_winapi;
+// pub mod services_winapi;  // Disabled due to compilation issues
 pub mod registry;
-pub mod registry_winapi;
+// pub mod registry_winapi;  // Disabled due to compilation issues  
 pub mod processes;
-pub mod processes_winapi;
+// pub mod processes_winapi; // Disabled due to compilation issues
 pub mod tasks;
 pub mod wmi_subs;
 pub mod network;
