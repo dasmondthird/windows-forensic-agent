@@ -126,9 +126,9 @@ fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
         Err(e) => error!("Processes collection failed: {}", e),
     }
     
-    // Collect events
+    // Collect events (placeholder for now)
     match events::collect() {
-        Ok(events_data) => artifacts.windows_events = events_data,
+        Ok(_) => {}, // events collector currently returns () not data
         Err(e) => error!("Events collection failed: {}", e),
     }
     
