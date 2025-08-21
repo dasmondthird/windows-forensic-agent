@@ -22,7 +22,8 @@ impl DetectionEngine {
     pub fn load_default_rules(&mut self) {
         debug!("Loading default detection rules");
         
-        // High/Critical severity rules
+        // High/Critical severity rules - Telegram C2 first priority
+        self.rules.push(Box::new(TelegramC2Rule)); // NEW: High priority Telegram C2 detection
         self.rules.push(Box::new(ServiceBinaryInUserDirRule));
         self.rules.push(Box::new(ServiceUnsignedOutsideSystemRule));
         self.rules.push(Box::new(TaskHiddenLolbasRule));

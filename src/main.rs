@@ -10,9 +10,12 @@ mod collectors;
 mod types;
 mod utils;
 mod output;
+mod detect;
 
-use types::SystemArtifacts;
+use types::{SystemArtifacts, Finding, TimelineEvent};
 use collectors::*;
+use detect::engine::DetectionEngine;
+use rayon::prelude::*;
 
 #[derive(Parser)]
 #[command(name = "forensic-agent")]
@@ -62,23 +65,130 @@ fn main() -> Result<()> {
     Ok(())
 }
 
-fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
+fn collect_artifacts(_args: &Args) -> Result<SystemArtifacts> {
     let mut artifacts = SystemArtifacts::default();
     
-    info!("Starting comprehensive forensic collection...");
+    info!("Starting comprehensive forensic collection (WinAPI native)...");
     
-    // Collect services
-    match services::collect() {
+    // Stage 1: Use WinAPI collectors for stealth
+    
+    // Collect services via WinAPI (no PowerShell)
+    match services_winapi::collect() {
         Ok(services_data) => artifacts.services = services_data,
-        Err(e) => error!("Services collection failed: {}", e),
+        Err(e) => {
+            error!("WinAPI services collection failed, falling back to PowerShell: {}", e);
+            match services::collect() {
+                Ok(services_data) => artifacts.services = services_data,
+                Err(e) => error!("Services collection failed completely: {}", e),
+            }
+        }
     }
     
-    // Collect registry data
-    match registry::collect() {
+    // Collect registry via WinAPI (no PowerShell)
+    match registry_winapi::collect() {
         Ok(registry_data) => artifacts.registry_entries = registry_data,
-        Err(e) => error!("Registry collection failed: {}", e),
+        Err(e) => {
+            error!("WinAPI registry collection failed, falling back to PowerShell: {}", e);
+            match registry::collect() {
+                Ok(registry_data) => artifacts.registry_entries = registry_data,
+                Err(e) => error!("Registry collection failed completely: {}", e),
+            }
+        }
     }
     
+    // Collect processes via WinAPI (no PowerShell)
+    match processes_winapi::collect() {
+        Ok((processes_data, anomalies_data)) => {
+            artifacts.processes = processes_data;
+            artifacts.process_anomalies = anomalies_data;
+        }
+        Err(e) => {
+            error!("WinAPI processes collection failed, falling back to PowerShell: {}", e);
+            match processes::collect() {
+                Ok((processes_data, anomalies_data)) => {
+                    artifacts.processes = processes_data;
+                    artifacts.process_anomalies = anomalies_data;
+                }
+                Err(e) => error!("Processes collection failed completely: {}", e),
+            }
+        }
+    }
+    
+    // Continue with other collectors
+    collect_remaining_artifacts(&mut artifacts)?;
+    
+    // Stage 2: Run threat detection
+    let detection_engine = DetectionEngine::new();
+    match detection_engine.analyze(&artifacts) {
+        Ok(findings) => {
+            info!("Threat detection completed: {} findings", findings.len());
+            write_findings_report(&findings)?;
+        }
+        Err(e) => error!("Threat detection failed: {}", e),
+    }
+    
+    // Stage 3: Generate unified timeline
+    generate_timeline(&mut artifacts);
+    
+    Ok(artifacts)
+}
+
+/// Generate unified timeline from all collected artifacts
+fn generate_timeline(artifacts: &mut SystemArtifacts) {
+    info!("Generating unified timeline...");
+    let mut timeline = Vec::new();
+    
+    // Add process events to timeline
+    for process in &artifacts.processes {
+        timeline.push(TimelineEvent {
+            timestamp: chrono::Utc::now().format("%Y-%m-%d %H:%M:%S UTC").to_string(), // Placeholder
+            source: "Process".to_string(),
+            event_type: "Process Started".to_string(),
+            description: format!("{} (PID {})", process.name, process.pid),
+            details: Some(process.command_line.clone()),
+            severity: None,
+        });
+    }
+    
+    // Add scheduled task events to timeline
+    for task in &artifacts.scheduled_tasks {
+        if let Some(last_run) = &task.last_run {
+            timeline.push(TimelineEvent {
+                timestamp: last_run.clone(),
+                source: "Task".to_string(),
+                event_type: "Task Executed".to_string(),
+                description: task.name.clone(),
+                details: Some(format!("Author: {}", task.author.as_ref().unwrap_or(&"Unknown".to_string()))),
+                severity: if task.hidden { Some(crate::types::Severity::Medium) } else { None },
+            });
+        }
+    }
+    
+    // Add file events to timeline
+    for file in &artifacts.file_artifacts {
+        if let Some(created) = &file.created {
+            timeline.push(TimelineEvent {
+                timestamp: created.clone(),
+                source: "Filesystem".to_string(),
+                event_type: "File Created".to_string(),
+                description: file.path.clone(),
+                details: Some(format!("Size: {} bytes, SHA256: {}", file.size, file.sha256)),
+                severity: match file.signature_status {
+                    crate::types::SignatureStatus::Untrusted => Some(crate::types::Severity::Low),
+                    _ => None,
+                },
+            });
+        }
+    }
+    
+    // Sort timeline by timestamp
+    timeline.sort_by(|a, b| a.timestamp.cmp(&b.timestamp));
+    
+    artifacts.timeline_events = timeline;
+    info!("Generated timeline with {} events", artifacts.timeline_events.len());
+}
+
+fn collect_remaining_artifacts(artifacts: &mut SystemArtifacts) -> Result<()> {
     // Collect scheduled tasks
     match tasks::collect() {
         Ok(tasks_data) => artifacts.scheduled_tasks = tasks_data,
@@ -111,24 +221,15 @@ fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
         Err(e) => error!("Certificates collection failed: {}", e),
     }
     
-    // Collect files
+    // Collect files with enhanced signature verification
     match files::collect() {
         Ok(files_data) => artifacts.file_artifacts = files_data,
         Err(e) => error!("Files collection failed: {}", e),
     }
     
-    // Collect processes
-    match processes::collect() {
-        Ok((processes_data, anomalies_data)) => {
-            artifacts.processes = processes_data;
-            artifacts.process_anomalies = anomalies_data;
-        }
-        Err(e) => error!("Processes collection failed: {}", e),
-    }
-    
-    // Collect events
+    // Collect events (placeholder for now)
     match events::collect() {
-        Ok(_) => info!("Events collection completed"),
+        Ok(_) => {}, // events collector currently returns () not data
         Err(e) => error!("Events collection failed: {}", e),
     }
     
@@ -152,7 +253,14 @@ fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
         Err(e) => error!("Crypto theft collection failed: {}", e),
     }
     
-    Ok(artifacts)
+    Ok(())
+}
+
+fn write_findings_report(findings: &[Finding]) -> Result<()> {
+    info!("Writing threat detection findings...");
+    let findings_json = serde_json::to_string_pretty(findings)?;
+    fs::write("forensic-collect/findings.json", findings_json)?;
+    Ok(())
 }
 
 fn collect_snapshot(_args: &Args) -> Result<SystemArtifacts> {
@@ -178,10 +286,128 @@ fn collect_snapshot(_args: &Args) -> Result<SystemArtifacts> {
 }
 
 fn write_single_report(output_dir: &PathBuf, artifacts: &SystemArtifacts) -> Result<()> {
+    // Write JSON report
     let json_output = serde_json::to_string_pretty(artifacts)?;
     let json_file = output_dir.join("reconnaissance.json");
     fs::write(&json_file, json_output)?;
     
-    info!("✅ Report written to: {}", json_file.display());
+    // Stage 3: Write Markdown report (Perfect Report)
+    let markdown_output = generate_markdown_report(artifacts)?;
+    let markdown_file = output_dir.join("system_snapshot.md");
+    fs::write(&markdown_file, markdown_output)?;
+    
+    info!("✅ JSON report written to: {}", json_file.display());
+    info!("✅ Markdown report written to: {}", markdown_file.display());
     Ok(())
+}
+
+/// Generate comprehensive Markdown report
+fn generate_markdown_report(artifacts: &SystemArtifacts) -> Result<String> {
+    let mut report = String::new();
+    
+    // Header
+    report.push_str(&format!("# Forensic Snapshot: {} ({})\n\n", 
+        std::env::var("COMPUTERNAME").unwrap_or_else(|_| "UNKNOWN".to_string()),
+        chrono::Utc::now().format("%Y-%m-%d %H:%M UTC")
+    ));
+    
+    // Suspicious Indicators section (most important first)
+    report.push_str("## 🚨 Suspicious Indicators\n\n");
+    if artifacts.processes.iter().any(|p| crate::detect::rules::find_telegram_c2(&p.command_line)) {
+        report.push_str("* **CRITICAL:** Potential Telegram C2 communication detected in process command lines\n");
+    }
+    if artifacts.scheduled_tasks.iter().any(|t| t.hidden) {
+        report.push_str("* **HIGH:** Hidden scheduled tasks detected\n");
+    }
+    report.push_str("\n");
+    
+    // Unified Timeline section
+    report.push_str("## 📊 Unified Timeline\n\n");
+    report.push_str("| Timestamp | Source | Event | Description | Details |\n");
+    report.push_str("|-----------|--------|-------|-------------|----------|\n");
+    
+    for event in artifacts.timeline_events.iter().take(20) { // Show top 20 events
+        let severity_marker = match &event.severity {
+            Some(crate::types::Severity::Critical) => "🔴",
+            Some(crate::types::Severity::High) => "🟠", 
+            Some(crate::types::Severity::Medium) => "🟡",
+            _ => "⚪",
+        };
+        
+        report.push_str(&format!("| {} | {} {} | {} | {} | {} |\n",
+            event.timestamp,
+            severity_marker,
+            event.source,
+            event.event_type,
+            event.description,
+            event.details.as_ref().unwrap_or(&"".to_string())
+        ));
+    }
+    report.push_str("\n");
+    
+    // Collected Artifacts section
+    report.push_str("## 🔍 Collected Artifacts\n\n");
+    
+    // Services
+    report.push_str("### Services\n\n");
+    report.push_str("| Name | State | Path | Account |\n");
+    report.push_str("|------|-------|------|---------|\n");
+    for service in artifacts.services.iter().take(10) {
+        report.push_str(&format!("| {} | {} | {} | {} |\n",
+            service.name,
+            service.current_state,
+            service.binary_path,
+            service.service_account
+        ));
+    }
+    report.push_str("\n");
+    
+    // Processes
+    report.push_str("### Processes\n\n");
+    report.push_str("| PID | Name | User | Command Line |\n");
+    report.push_str("|-----|------|------|-------------|\n");
+    for process in artifacts.processes.iter().take(15) {
+        let cmd_short = if process.command_line.len() > 50 {
+            format!("{}...", &process.command_line[..50])
+        } else {
+            process.command_line.clone()
+        };
+        report.push_str(&format!("| {} | {} | {} | `{}` |\n",
+            process.pid,
+            process.name,
+            process.user.as_ref().unwrap_or(&"Unknown".to_string()),
+            cmd_short.replace("|", "\\|")
+        ));
+    }
+    report.push_str("\n");
+    
+    // Registry Entries
+    if !artifacts.registry_entries.is_empty() {
+        report.push_str("### Registry Entries\n\n");
+        report.push_str("| Key Path | Value Name | Value Data |\n");
+        report.push_str("|----------|------------|------------|\n");
+        for entry in artifacts.registry_entries.iter().take(10) {
+            report.push_str(&format!("| {} | {} | {} |\n",
+                entry.key_path.replace("|", "\\|"),
+                entry.value_name,
+                entry.value_data.replace("|", "\\|")
+            ));
+        }
+        report.push_str("\n");
+    }
+    
+    // Statistics
+    report.push_str("## 📈 Collection Statistics\n\n");
+    report.push_str(&format!("* **Services:** {}\n", artifacts.services.len()));
+    report.push_str(&format!("* **Processes:** {}\n", artifacts.processes.len()));
+    report.push_str(&format!("* **Registry Entries:** {}\n", artifacts.registry_entries.len()));
+    report.push_str(&format!("* **Scheduled Tasks:** {}\n", artifacts.scheduled_tasks.len()));
+    report.push_str(&format!("* **Network Connections:** {}\n", artifacts.network_connections.len()));
+    report.push_str(&format!("* **Timeline Events:** {}\n", artifacts.timeline_events.len()));
+    report.push_str("\n");
+    
+    report.push_str("---\n");
+    report.push_str("*Report generated by Windows Forensic Agent v0.1.0*\n");
+    
+    Ok(report)
 }

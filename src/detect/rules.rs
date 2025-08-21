@@ -1,6 +1,96 @@
 use anyhow::Result;
+use regex::Regex;
 use crate::types::{Finding, SystemArtifacts, Severity, Category, SignatureStatus};
 use super::engine::DetectionRule;
+
+// Stage 2: The Hunter - Telegram C2 Detection
+pub fn find_telegram_c2(text: &str) -> bool {
+    // Регулярное выражение для поиска токена бота Telegram
+    let telegram_token_re = Regex::new(r"bot([0-9]{9,10}):[a-zA-Z0-9_-]{35}").unwrap();
+    // Простое строковое совпадение для URL
+    let telegram_api_url = "api.telegram.org/bot";
+
+    if text.contains(telegram_api_url) || telegram_token_re.is_match(text) {
+        return true;
+    }
+    false
+}
+
+// Telegram C2 Detection Rule
+pub struct TelegramC2Rule;
+
+impl DetectionRule for TelegramC2Rule {
+    fn rule_id(&self) -> &'static str { "telegram_c2_detection" }
+    
+    fn evaluate(&self, artifacts: &SystemArtifacts) -> Result<Vec<Finding>> {
+        let mut findings = Vec::new();
+        
+        // Check process command lines for Telegram C2
+        for process in &artifacts.processes {
+            if find_telegram_c2(&process.command_line) {
+                findings.push(Finding {
+                    id: format!("{}_{}", self.rule_id(), process.pid),
+                    title: format!("Process '{}' (PID {}) contains potential Telegram C2 communication", process.name, process.pid),
+                    severity: Severity::Critical,
+                    category: Category::Process,
+                    indicators: vec![
+                        format!("Process: {} (PID {})", process.name, process.pid),
+                        format!("Command line: {}", process.command_line),
+                        "Contains Telegram bot token or API URL".to_string(),
+                    ],
+                    rationale: "Telegram bot tokens in process command lines may indicate C2 communication".to_string(),
+                    suggested_action: Some("Immediately investigate this process and network connections".to_string()),
+                    artifacts: vec![format!("Process: {} (PID {})", process.name, process.pid)],
+                });
+            }
+        }
+        
+        // Check scheduled task actions for Telegram C2
+        for task in &artifacts.scheduled_tasks {
+            for action in &task.actions {
+                let combined_command = format!("{} {}", action.execute, action.arguments.as_ref().unwrap_or(&String::new()));
+                if find_telegram_c2(&combined_command) {
+                    findings.push(Finding {
+                        id: format!("{}_{}", self.rule_id(), task.name.replace("\\", "_")),
+                        title: format!("Scheduled task '{}' contains potential Telegram C2 communication", task.name),
+                        severity: Severity::Critical,
+                        category: Category::Task,
+                        indicators: vec![
+                            format!("Task: {}", task.name),
+                            format!("Action: {}", combined_command),
+                            "Contains Telegram bot token or API URL".to_string(),
+                        ],
+                        rationale: "Telegram bot tokens in scheduled tasks may indicate persistent C2 communication".to_string(),
+                        suggested_action: Some("Delete this task and investigate its origin immediately".to_string()),
+                        artifacts: vec![format!("Task: {}", task.name)],
+                    });
+                }
+            }
+        }
+        
+        // Check WMI consumers for Telegram C2
+        for consumer in &artifacts.wmi_consumers {
+            if find_telegram_c2(&consumer.command_line_template) {
+                findings.push(Finding {
+                    id: format!("{}_{}", self.rule_id(), consumer.name.replace(" ", "_")),
+                    title: format!("WMI consumer '{}' contains potential Telegram C2 communication", consumer.name),
+                    severity: Severity::Critical,
+                    category: Category::WMI,
+                    indicators: vec![
+                        format!("WMI Consumer: {}", consumer.name),
+                        format!("Command: {}", consumer.command_line_template),
+                        "Contains Telegram bot token or API URL".to_string(),
+                    ],
+                    rationale: "Telegram bot tokens in WMI consumers indicate advanced persistent C2 communication".to_string(),
+                    suggested_action: Some("Remove this WMI subscription and investigate the entire WMI configuration".to_string()),
+                    artifacts: vec![format!("WMI Consumer: {}", consumer.name)],
+                });
+            }
+        }
+        
+        Ok(findings)
+    }
+}
 
 // High/Critical Rules
 

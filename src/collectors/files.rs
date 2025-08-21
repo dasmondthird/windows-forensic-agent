@@ -82,11 +82,69 @@ fn collect_recent_drivers() -> Result<Vec<FileArtifact>> {
 }
 
 fn check_file_signature(path: &str) -> SignatureStatus {
-    // TODO: Implement WinVerifyTrust signature verification
-    // For now, basic heuristic based on path
-    if path.starts_with("C:\\Windows\\System32") {
-        SignatureStatus::Trusted
-    } else {
-        SignatureStatus::Untrusted
+    // Implement WinVerifyTrust signature verification for Windows
+    #[cfg(target_os = "windows")]
+    {
+        use std::ffi::OsString;
+        use std::os::windows::ffi::OsStringExt;
+        use windows::Win32::Security::Cryptography::{
+            WinVerifyTrust, WINTRUST_ACTION_GENERIC_VERIFY_V2, 
+            WINTRUST_DATA, WINTRUST_FILE_INFO, WTD_CHOICE_FILE,
+            WTD_REVOKE_NONE, WTD_STATEACTION_VERIFY, WTD_UI_NONE,
+        };
+        use windows::core::PWSTR;
+        
+        // Convert path to wide string
+        let wide_path: Vec<u16> = OsString::from(path)
+            .encode_wide()
+            .chain(Some(0))
+            .collect();
+        
+        unsafe {
+            // Setup file info structure
+            let mut file_info = WINTRUST_FILE_INFO {
+                cbStruct: std::mem::size_of::<WINTRUST_FILE_INFO>() as u32,
+                pcwszFilePath: PWSTR(wide_path.as_ptr() as *mut u16),
+                hFile: None,
+                pgKnownSubject: None,
+            };
+            
+            // Setup trust data structure
+            let mut trust_data = WINTRUST_DATA {
+                cbStruct: std::mem::size_of::<WINTRUST_DATA>() as u32,
+                pPolicyCallbackData: None,
+                pSIPClientData: None,
+                dwUIChoice: WTD_UI_NONE,
+                fdwRevocationChecks: WTD_REVOKE_NONE,
+                dwUnionChoice: WTD_CHOICE_FILE,
+                Anonymous: windows::Win32::Security::Cryptography::WINTRUST_DATA_0 {
+                    pFile: &mut file_info,
+                },
+                dwStateAction: WTD_STATEACTION_VERIFY,
+                hWVTStateData: None,
+                pwszURLReference: PWSTR::null(),
+                dwProvFlags: 0,
+                dwUIContext: 0,
+                pSignatureSettings: None,
+            };
+            
+            // Call WinVerifyTrust
+            let result = WinVerifyTrust(None, &WINTRUST_ACTION_GENERIC_VERIFY_V2, &mut trust_data);
+            
+            match result.0 {
+                0 => SignatureStatus::Trusted,  // S_OK - signature is valid
+                _ => SignatureStatus::Untrusted, // Any error - signature invalid or unsigned
+            }
+        }
+    }
+    
+    #[cfg(not(target_os = "windows"))]
+    {
+        // Fallback for non-Windows platforms (for development/testing)
+        if path.starts_with("/bin") || path.starts_with("/usr") || path.starts_with("/lib") {
+            SignatureStatus::Trusted
+        } else {
+            SignatureStatus::Untrusted
+        }
     }
 }
