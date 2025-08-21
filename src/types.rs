@@ -182,6 +182,16 @@ pub struct Finding {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct TimelineEvent {
+    pub timestamp: String,
+    pub source: String,
+    pub event_type: String,
+    pub description: String,
+    pub details: Option<String>,
+    pub severity: Option<Severity>,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum Severity {
     Low,
     Medium,
@@ -225,6 +235,9 @@ pub struct SystemArtifacts {
     pub crypto_theft_artifacts: Vec<CryptoTheftArtifact>,
     pub wallet_files: Vec<WalletFile>,
     pub session_files: Vec<SessionFile>,
+    
+    // Timeline for unified event analysis (Stage 3)
+    pub timeline_events: Vec<TimelineEvent>,
     
     // New comprehensive collections
     pub users: Vec<UserInfo>,
