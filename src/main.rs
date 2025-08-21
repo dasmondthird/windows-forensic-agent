@@ -10,9 +10,11 @@ mod collectors;
 mod types;
 mod utils;
 mod output;
+mod detect;
 
-use types::SystemArtifacts;
+use types::{SystemArtifacts, Finding};
 use collectors::*;
+use detect::engine::DetectionEngine;
 
 #[derive(Parser)]
 #[command(name = "forensic-agent")]
@@ -62,23 +64,72 @@ fn main() -> Result<()> {
     Ok(())
 }
 
-fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
+fn collect_artifacts(_args: &Args) -> Result<SystemArtifacts> {
     let mut artifacts = SystemArtifacts::default();
     
-    info!("Starting comprehensive forensic collection...");
+    info!("Starting comprehensive forensic collection (WinAPI native)...");
     
-    // Collect services
-    match services::collect() {
+    // Stage 1: Use WinAPI collectors for stealth
+    
+    // Collect services via WinAPI (no PowerShell)
+    match services_winapi::collect() {
         Ok(services_data) => artifacts.services = services_data,
-        Err(e) => error!("Services collection failed: {}", e),
+        Err(e) => {
+            error!("WinAPI services collection failed, falling back to PowerShell: {}", e);
+            match services::collect() {
+                Ok(services_data) => artifacts.services = services_data,
+                Err(e) => error!("Services collection failed completely: {}", e),
+            }
+        }
     }
     
-    // Collect registry data
-    match registry::collect() {
+    // Collect registry via WinAPI (no PowerShell)
+    match registry_winapi::collect() {
         Ok(registry_data) => artifacts.registry_entries = registry_data,
-        Err(e) => error!("Registry collection failed: {}", e),
+        Err(e) => {
+            error!("WinAPI registry collection failed, falling back to PowerShell: {}", e);
+            match registry::collect() {
+                Ok(registry_data) => artifacts.registry_entries = registry_data,
+                Err(e) => error!("Registry collection failed completely: {}", e),
+            }
+        }
     }
     
+    // Collect processes via WinAPI (no PowerShell)
+    match processes_winapi::collect() {
+        Ok((processes_data, anomalies_data)) => {
+            artifacts.processes = processes_data;
+            artifacts.process_anomalies = anomalies_data;
+        }
+        Err(e) => {
+            error!("WinAPI processes collection failed, falling back to PowerShell: {}", e);
+            match processes::collect() {
+                Ok((processes_data, anomalies_data)) => {
+                    artifacts.processes = processes_data;
+                    artifacts.process_anomalies = anomalies_data;
+                }
+                Err(e) => error!("Processes collection failed completely: {}", e),
+            }
+        }
+    }
+    
+    // Continue with other collectors
+    collect_remaining_artifacts(&mut artifacts)?;
+    
+    // Stage 2: Run threat detection
+    let mut detection_engine = DetectionEngine::new();
+    match detection_engine.analyze(&artifacts) {
+        Ok(findings) => {
+            info!("Threat detection completed: {} findings", findings.len());
+            write_findings_report(&findings)?;
+        }
+        Err(e) => error!("Threat detection failed: {}", e),
+    }
+    
+    Ok(artifacts)
+}
+
+fn collect_remaining_artifacts(artifacts: &mut SystemArtifacts) -> Result<()> {
     // Collect scheduled tasks
     match tasks::collect() {
         Ok(tasks_data) => artifacts.scheduled_tasks = tasks_data,
@@ -111,19 +162,10 @@ fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
         Err(e) => error!("Certificates collection failed: {}", e),
     }
     
-    // Collect files
+    // Collect files with enhanced signature verification
     match files::collect() {
         Ok(files_data) => artifacts.file_artifacts = files_data,
         Err(e) => error!("Files collection failed: {}", e),
-    }
-    
-    // Collect processes
-    match processes::collect() {
-        Ok((processes_data, anomalies_data)) => {
-            artifacts.processes = processes_data;
-            artifacts.process_anomalies = anomalies_data;
-        }
-        Err(e) => error!("Processes collection failed: {}", e),
     }
     
     // Collect events (placeholder for now)
@@ -152,7 +194,14 @@ fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
         Err(e) => error!("Crypto theft collection failed: {}", e),
     }
     
-    Ok(artifacts)
+    Ok(())
+}
+
+fn write_findings_report(findings: &[Finding]) -> Result<()> {
+    info!("Writing threat detection findings...");
+    let findings_json = serde_json::to_string_pretty(findings)?;
+    fs::write("forensic-collect/findings.json", findings_json)?;
+    Ok(())
 }
 
 fn collect_snapshot(_args: &Args) -> Result<SystemArtifacts> {
