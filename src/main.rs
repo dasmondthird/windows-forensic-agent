@@ -128,7 +128,7 @@ fn collect_artifacts(args: &Args) -> Result<SystemArtifacts> {
     
     // Collect events
     match events::collect() {
-        Ok(events_data) => artifacts.windows_events = events_data,
+        Ok(_) => info!("Events collection completed"),
         Err(e) => error!("Events collection failed: {}", e),
     }
     
