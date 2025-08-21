@@ -1,5 +1,80 @@
 use serde::{Deserialize, Serialize};
 
+// Timeline Event for unified chronological reporting
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct TimelineEvent {
+    pub timestamp: String,
+    pub event_type: String,
+    pub source: String,
+    pub title: String,
+    pub description: String,
+    pub severity: Option<Severity>,
+    pub process_id: Option<u32>,
+    pub process_name: Option<String>,
+    pub file_path: Option<String>,
+    pub registry_key: Option<String>,
+    pub network_connection: Option<String>,
+    pub user_context: Option<String>,
+    pub additional_data: std::collections::HashMap<String, String>,
+}
+
+impl TimelineEvent {
+    pub fn new(
+        timestamp: String,
+        event_type: String,
+        source: String,
+        title: String,
+        description: String,
+    ) -> Self {
+        Self {
+            timestamp,
+            event_type,
+            source,
+            title,
+            description,
+            severity: None,
+            process_id: None,
+            process_name: None,
+            file_path: None,
+            registry_key: None,
+            network_connection: None,
+            user_context: None,
+            additional_data: std::collections::HashMap::new(),
+        }
+    }
+
+    pub fn with_process(mut self, pid: u32, name: String) -> Self {
+        self.process_id = Some(pid);
+        self.process_name = Some(name);
+        self
+    }
+
+    pub fn with_file(mut self, path: String) -> Self {
+        self.file_path = Some(path);
+        self
+    }
+
+    pub fn with_registry(mut self, key: String) -> Self {
+        self.registry_key = Some(key);
+        self
+    }
+
+    pub fn with_severity(mut self, severity: Severity) -> Self {
+        self.severity = Some(severity);
+        self
+    }
+
+    pub fn with_user(mut self, user: String) -> Self {
+        self.user_context = Some(user);
+        self
+    }
+
+    pub fn add_data(mut self, key: String, value: String) -> Self {
+        self.additional_data.insert(key, value);
+        self
+    }
+}
+
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Manifest {
     pub hostname: String,
@@ -54,6 +129,11 @@ pub struct ScheduledTask {
     pub last_run: Option<String>,
     pub next_run: Option<String>,
     pub last_result: Option<i32>,
+    pub user_context: String,
+    pub run_level: String,
+    pub last_run_time: String,
+    pub next_run_time: String,
+    pub state: String,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -152,6 +232,13 @@ pub struct ProcessInfo {
     pub cpu_usage: f32,
     pub memory_usage: u64,
     pub signature_status: SignatureStatus,
+    pub creation_time: String,
+    pub session_id: u32,
+    pub working_set_size: u64,
+    pub page_file_usage: u64,
+    pub cpu_time: u64,
+    pub handle_count: u32,
+    pub thread_count: u32,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -182,15 +269,7 @@ pub struct Finding {
     pub artifacts: Vec<String>,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct TimelineEvent {
-    pub timestamp: String,
-    pub source: String,
-    pub event_type: String,
-    pub description: String,
-    pub details: Option<String>,
-    pub severity: Option<Severity>,
-}
+
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum Severity {

@@ -82,11 +82,12 @@ fn collect_artifacts(_args: &Args) -> Result<SystemArtifacts> {
         Err(e) => error!("Registry collection failed: {}", e),
     }
     
-    // Collect processes
-    match processes::collect() {
-        Ok((processes_data, anomalies_data)) => {
+    // Collect processes with timeline generation
+    match processes::collect_with_timeline() {
+        Ok((processes_data, anomalies_data, timeline_events)) => {
             artifacts.processes = processes_data;
             artifacts.process_anomalies = anomalies_data;
+            artifacts.timeline_events.extend(timeline_events);
         }
         Err(e) => error!("Processes collection failed: {}", e),
     }
@@ -118,12 +119,23 @@ fn generate_timeline(artifacts: &mut SystemArtifacts) {
     // Add process events to timeline
     for process in &artifacts.processes {
         timeline.push(TimelineEvent {
-            timestamp: chrono::Utc::now().format("%Y-%m-%d %H:%M:%S UTC").to_string(), // Placeholder
-            source: "Process".to_string(),
+            timestamp: std::time::SystemTime::now()
+                .duration_since(std::time::UNIX_EPOCH)
+                .unwrap()
+                .as_secs()
+                .to_string(),
             event_type: "Process Started".to_string(),
-            description: format!("{} (PID {})", process.name, process.pid),
-            details: Some(process.command_line.clone()),
+            source: "Process".to_string(),
+            title: format!("Process: {}", process.name),
+            description: format!("{} (PID {}): {}", process.name, process.pid, process.command_line),
             severity: None,
+            process_id: Some(process.pid),
+            process_name: Some(process.name.clone()),
+            file_path: Some(process.executable_path.clone()),
+            registry_key: None,
+            network_connection: None,
+            user_context: process.user.clone(),
+            additional_data: std::collections::HashMap::new(),
         });
     }
     
@@ -132,11 +144,18 @@ fn generate_timeline(artifacts: &mut SystemArtifacts) {
         if let Some(last_run) = &task.last_run {
             timeline.push(TimelineEvent {
                 timestamp: last_run.clone(),
-                source: "Task".to_string(),
                 event_type: "Task Executed".to_string(),
-                description: task.name.clone(),
-                details: Some(format!("Author: {}", task.author.as_ref().unwrap_or(&"Unknown".to_string()))),
+                source: "Task".to_string(),
+                title: format!("Task: {}", task.name),
+                description: format!("{} (Author: {})", task.name, task.author.as_ref().unwrap_or(&"Unknown".to_string())),
                 severity: if task.hidden { Some(crate::types::Severity::Medium) } else { None },
+                process_id: None,
+                process_name: None,
+                file_path: Some(task.path.clone()),
+                registry_key: None,
+                network_connection: None,
+                user_context: Some(task.user_context.clone()),
+                additional_data: std::collections::HashMap::new(),
             });
         }
     }
@@ -146,14 +165,21 @@ fn generate_timeline(artifacts: &mut SystemArtifacts) {
         if let Some(created) = &file.created {
             timeline.push(TimelineEvent {
                 timestamp: created.clone(),
-                source: "Filesystem".to_string(),
                 event_type: "File Created".to_string(),
-                description: file.path.clone(),
-                details: Some(format!("Size: {} bytes, SHA256: {}", file.size, file.sha256)),
+                source: "Filesystem".to_string(),
+                title: format!("File: {}", std::path::Path::new(&file.path).file_name().unwrap_or(std::ffi::OsStr::new("unknown")).to_string_lossy()),
+                description: format!("{} (Size: {} bytes, SHA256: {})", file.path, file.size, file.sha256),
                 severity: match file.signature_status {
                     crate::types::SignatureStatus::Untrusted => Some(crate::types::Severity::Low),
                     _ => None,
                 },
+                process_id: None,
+                process_name: None,
+                file_path: Some(file.path.clone()),
+                registry_key: None,
+                network_connection: None,
+                user_context: None,
+                additional_data: std::collections::HashMap::new(),
             });
         }
     }
@@ -167,7 +193,7 @@ fn generate_timeline(artifacts: &mut SystemArtifacts) {
 
 fn collect_remaining_artifacts(artifacts: &mut SystemArtifacts) -> Result<()> {
     // Collect scheduled tasks
-    match tasks::collect() {
+    match crate::collectors::tasks::collect() {
         Ok(tasks_data) => artifacts.scheduled_tasks = tasks_data,
         Err(e) => error!("Tasks collection failed: {}", e),
     }
@@ -317,7 +343,7 @@ fn generate_markdown_report(artifacts: &SystemArtifacts) -> Result<String> {
             event.source,
             event.event_type,
             event.description,
-            event.details.as_ref().unwrap_or(&"".to_string())
+            &event.description
         ));
     }
     report.push_str("\n");
